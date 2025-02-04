@@ -1,9 +1,26 @@
 # Preface {.unnumbered}
 
-This is a Quarto book.
+Welcome to the Open Science Guide for Parkinson's disease research! 
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+This is an online book written with the following aims:
 
-```{r}
-1 + 1
-```
+* help educate on principles of open science
+* provide ideas, resources, and examples to facilitate open and reproducible science
+
+This online book was written as a high-level, easily readable, and accessible guide for Parkinson's disease researchers across all levels of expertise, but we hope that it's useful for others as well.
+
+# Interested in contributing? 
+
+Feel free to contribute if you find a section with missing, incomplete, or incorrect information. For more substantive edits, such as an entire section or chapter, we recommend submitting an issue for clearance from admins (see below).
+
+**Here are three ways you can contribute:**
+
+1. Go to our GitHub repo and file an [issue](https://github.com/MJFF-ResearchCommunity/open-science-guide/issues).
+
+2. Visit our GitHub [repo](https://github.com/MJFF-ResearchCommunity/open-science-guide), modify a `.qmd` file directly, and submit a pull request
+
+3. Clone our GitHub [repo](https://github.com/MJFF-ResearchCommunity/open-science-guide), create a branch, modify documents, and submit a pull request
+
+# Acknowledgements
+
+This project is supported by the Michael J. Fox Foundation for Parkinson's Research.

@@ -3,12 +3,21 @@ project:
 
 book:
   title: "Open Science Guide"
-  author: "Norah Jones"
+  author:
+    - name: "Matthew J. Kmiecik"
+      email: "mattk@23andme.com"
+      orcid: "0000-0001-5340-3872"
   date: "11/5/2024"
+  navbar:
+    left: 
+      - icon: github
+        href: https://github.com/MJFF-ResearchCommunity/open-science-guide
   chapters:
     - index.qmd
-    - intro.qmd
-    - summary.qmd
+    - principles.qmd
+    - considerations.qmd
+    - tools.qmd
+    - examples.qmd
     - references.qmd
 
 bibliography: references.bib
