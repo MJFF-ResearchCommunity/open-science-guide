@@ -4,39 +4,49 @@
     "href": "index.html",
     "title": "Open Science Guide",
     "section": "",
-    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2",
+    "text": "Preface\nWelcome to the Open Science Guide for Parkinson’s disease research!\nThis is an online book written with the following aims:\n\nhelp educate on principles of open science\nprovide ideas, resources, and examples to facilitate open and reproducible science\n\nThis online book was written as a high-level, easily readable, and accessible guide for Parkinson’s disease researchers across all levels of expertise, but we hope that it’s useful for others as well.\n\n\nInterested in contributing?\nFeel free to contribute if you find a section with missing, incomplete, or incorrect information. For more substantive edits, such as an entire section or chapter, we recommend submitting an issue for clearance from admins (see below).\nHere are three ways you can contribute:\n\nGo to our GitHub repo and file an issue.\nVisit our GitHub repo, modify a .qmd file directly, and submit a pull request\nClone our GitHub repo, create a branch, modify documents, and submit a pull request\n\n\n\nAcknowledgements\nThis project is supported by the Michael J. Fox Foundation for Parkinson’s Research.",
     "crumbs": [
       "Preface"
     ]
   },
   {
-    "objectID": "intro.html",
-    "href": "intro.html",
-    "title": "1  Introduction",
+    "objectID": "principles.html",
+    "href": "principles.html",
+    "title": "1  Principles",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\nfdadf\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "Principles of Open Science goes here.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Principles</span>"
     ]
   },
   {
-    "objectID": "summary.html",
-    "href": "summary.html",
-    "title": "2  Summary",
+    "objectID": "considerations.html",
+    "href": "considerations.html",
+    "title": "2  Considerations",
     "section": "",
-    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2",
+    "text": "considerations here.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Considerations</span>"
     ]
   },
   {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "References",
+    "objectID": "tools.html",
+    "href": "tools.html",
+    "title": "3  Tools",
     "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "tools for open science here.",
     "crumbs": [
-      "References"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Tools</span>"
+    ]
+  },
+  {
+    "objectID": "examples.html",
+    "href": "examples.html",
+    "title": "4  Examples",
+    "section": "",
+    "text": "examples of open science here.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Examples</span>"
     ]
   }
 ]
