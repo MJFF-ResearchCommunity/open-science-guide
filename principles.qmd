@@ -1,4 +1,34 @@
 # Principles
 
-Principles of Open Science goes here.
+Let us begin with addressing two fundamental questions:
+
+* What is Open Science?
+* What are the principles of Open Science?
+
+This is a large and ongoing area of investigation that we cannot cover in this brief chapter, so we recommend readers to view the cited publications to learn more.
+
+## Definition
+
+**“Open Science is transparent and accessible knowledge that is shared and developed through collaborative networks”** [@vicente-saezOpenScienceNow2018].
+
+The main focus of this guide is to describe tools and resources that address the aspects of **transparency** and **accessibility** of knowledge/evidence gathered from scientific studies of Parkinson's disease.
+
+Some investigators describe Open Science as a layered, gradient approach with increasing levels of transparency and accessibility (ADD THE CITATION HERE):
+
+![Figure 1.1. Layered framework for open science practices. Reproduced from Bowman, N. D., & Keene, J. R. (2018). A Layered Framework for Considering Open Science Practices. Communication Research Reports, 35(4), 363–372. https://doi.org/10.1080/08824096.2018.1513273 ](images/bowman-keene-2018.png)
+
+FAIR Data Principles: Making data Findable, Accessible, Interoperable, and Reusable.
+
+## Importance
+
+Why does transparency, collaboration, and reproducibility matter?
+
+## Ethical & Regulatory Considerations
+
+How to share data while respecting patient privacy (e.g., GDPR, HIPAA).
+
+## Open Peer Review & Collaboration
+
+Encouraging constructive criticism and transparency in research assessment.
+
 
