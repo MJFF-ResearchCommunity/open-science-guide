@@ -5,30 +5,42 @@ Let us begin with addressing two fundamental questions:
 * What is Open Science?
 * What are the principles of Open Science?
 
-This is a large and ongoing area of investigation that we cannot cover in this brief chapter, so we recommend readers to view the cited publications to learn more.
+This is a large and ongoing area of investigation that we cannot hope to cover in this brief chapter, so we recommend readers to view the cited publications to learn more.
 
-## Definition
+## Definitions
 
 **“Open Science is transparent and accessible knowledge that is shared and developed through collaborative networks”** [@vicente-saezOpenScienceNow2018].
 
-The main focus of this guide is to describe tools and resources that address the aspects of **transparency** and **accessibility** of knowledge/evidence gathered from scientific studies of Parkinson's disease.
-
-Some investigators describe Open Science as a layered, gradient approach with increasing levels of transparency and accessibility (ADD THE CITATION HERE):
+Investigators can approach Open Science in a layered, gradient approach with increasing levels of transparency and accessibility [@bowmanLayeredFrameworkConsidering2018]:
 
 ![Figure 1.1. Layered framework for open science practices. Reproduced from Bowman, N. D., & Keene, J. R. (2018). A Layered Framework for Considering Open Science Practices. Communication Research Reports, 35(4), 363–372. https://doi.org/10.1080/08824096.2018.1513273 ](images/bowman-keene-2018.png)
 
-FAIR Data Principles: Making data Findable, Accessible, Interoperable, and Reusable.
-
 ## Importance
 
-Why does transparency, collaboration, and reproducibility matter?
+Why does transparency, accessibility, collaboration, and reproducibility matter? Below is a brief non-exhaustive list of potential benefits:
+
+* **Increased effectiveness of the scientific method**
+
+Open science practices advance innovation and accelerate discoveries by allowing scientists to build on (and replicate) existing work more efficiently and effectively. Open Science fosters global collaboration by enabling researchers from different institutions, disciplines, and countries to work together.
+
+* **Increased trust in scientific work**
+
+Open science practices help to reduce errors, building trust and confidence in findings across the research and public domains.
+
+* **Increased benefit to the public and common good** 
+
+Open Science aligns with ethical principles by promoting fairness, accountability, and knowledge sharing, ensuring that research contributes to the common good.
 
 ## Ethical & Regulatory Considerations
 
-How to share data while respecting patient privacy (e.g., GDPR, HIPAA).
+One component of Open Science is data sharing. The FAIR Data Principles provide a framework to enhance the reusability of data [@wilkinsonFAIRGuidingPrinciples2016].
 
-## Open Peer Review & Collaboration
+**FAIR** Data Principles: Making data **F**indable, **A**ccessible, **I**nteroperable, and **R**eusable.
 
-Encouraging constructive criticism and transparency in research assessment.
+However, careful consideration should be given to participants' privacy when developing procedures (e.g., consent) for sharing data [@dennisPrivacyOpenScience2019].
 
+## Summary
 
+Open Science is an umbrella term that encompasses many components of how scientific knowledge is shared, accessed, and developed. Following Open Science principles has pontential benefits to accelerating scientific innovation, increasing trust, and benefiting the common good. 
+
+The following chapters will list tools and resources that accomplish various goals of Open Science with a particular emphasis on the science of Parkinson's disease.
