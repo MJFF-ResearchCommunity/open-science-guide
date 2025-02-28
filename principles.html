@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.40">
+<meta name="generator" content="quarto-1.6.42">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -37,10 +57,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-72c93205fb41c15e2e398b4f9a505ee2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-a34d670291f06f286357e447776a572a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -158,8 +178,17 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#definitions" id="toc-definitions" class="nav-link active" data-scroll-target="#definitions"><span class="header-section-number">1.1</span> Definitions</a></li>
+  <li><a href="#importance" id="toc-importance" class="nav-link" data-scroll-target="#importance"><span class="header-section-number">1.2</span> Importance</a></li>
+  <li><a href="#ethical-regulatory-considerations" id="toc-ethical-regulatory-considerations" class="nav-link" data-scroll-target="#ethical-regulatory-considerations"><span class="header-section-number">1.3</span> Ethical &amp; Regulatory Considerations</a></li>
+  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary"><span class="header-section-number">1.4</span> Summary</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -183,9 +212,66 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Principles of Open Science goes here.</p>
+<p>Let us begin with addressing two fundamental questions:</p>
+<ul>
+<li>What is Open Science?</li>
+<li>What are the principles of Open Science?</li>
+</ul>
+<p>This is a large and ongoing area of investigation that we cannot hope to cover in this brief chapter, so we recommend readers to view the cited publications to learn more.</p>
+<section id="definitions" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="definitions"><span class="header-section-number">1.1</span> Definitions</h2>
+<p><strong>“Open Science is transparent and accessible knowledge that is shared and developed through collaborative networks”</strong> <span class="citation" data-cites="vicente-saezOpenScienceNow2018">(<a href="references.html#ref-vicente-saezOpenScienceNow2018" role="doc-biblioref">Vicente-Saez and Martinez-Fuentes 2018</a>)</span>.</p>
+<p>Investigators can approach Open Science in a layered, gradient approach with increasing levels of transparency and accessibility <span class="citation" data-cites="bowmanLayeredFrameworkConsidering2018">(<a href="references.html#ref-bowmanLayeredFrameworkConsidering2018" role="doc-biblioref">Bowman and Keene 2018</a>)</span>:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/bowman-keene-2018.png" class="img-fluid figure-img"></p>
+<figcaption>Figure 1.1. Layered framework for open science practices. Reproduced from Bowman, N. D., &amp; Keene, J. R. (2018). A Layered Framework for Considering Open Science Practices. Communication Research Reports, 35(4), 363–372. https://doi.org/10.1080/08824096.2018.1513273</figcaption>
+</figure>
+</div>
+</section>
+<section id="importance" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="importance"><span class="header-section-number">1.2</span> Importance</h2>
+<p>Why does transparency, accessibility, collaboration, and reproducibility matter? Below is a brief non-exhaustive list of potential benefits:</p>
+<ul>
+<li><strong>Increased effectiveness of the scientific method</strong></li>
+</ul>
+<p>Open science practices advance innovation and accelerate discoveries by allowing scientists to build on (and replicate) existing work more efficiently and effectively. Open Science fosters global collaboration by enabling researchers from different institutions, disciplines, and countries to work together.</p>
+<ul>
+<li><strong>Increased trust in scientific work</strong></li>
+</ul>
+<p>Open science practices help to reduce errors, building trust and confidence in findings across the research and public domains.</p>
+<ul>
+<li><strong>Increased benefit to the public and common good</strong></li>
+</ul>
+<p>Open Science aligns with ethical principles by promoting fairness, accountability, and knowledge sharing, ensuring that research contributes to the common good.</p>
+</section>
+<section id="ethical-regulatory-considerations" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="ethical-regulatory-considerations"><span class="header-section-number">1.3</span> Ethical &amp; Regulatory Considerations</h2>
+<p>One component of Open Science is data sharing. The FAIR Data Principles provide a framework to enhance the reusability of data <span class="citation" data-cites="wilkinsonFAIRGuidingPrinciples2016">(<a href="references.html#ref-wilkinsonFAIRGuidingPrinciples2016" role="doc-biblioref">Wilkinson et al. 2016</a>)</span>.</p>
+<p><strong>FAIR</strong> Data Principles: Making data <strong>F</strong>indable, <strong>A</strong>ccessible, <strong>I</strong>nteroperable, and <strong>R</strong>eusable.</p>
+<p>However, careful consideration should be given to participants’ privacy when developing procedures (e.g., consent) for sharing data <span class="citation" data-cites="dennisPrivacyOpenScience2019">(<a href="references.html#ref-dennisPrivacyOpenScience2019" role="doc-biblioref">Dennis et al. 2019</a>)</span>.</p>
+</section>
+<section id="summary" class="level2" data-number="1.4">
+<h2 data-number="1.4" class="anchored" data-anchor-id="summary"><span class="header-section-number">1.4</span> Summary</h2>
+<p>Open Science is an umbrella term that encompasses many components of how scientific knowledge is shared, accessed, and developed. Following Open Science principles has pontential benefits to accelerating scientific innovation, increasing trust, and benefiting the common good.</p>
+<p>The following chapters will list tools and resources that accomplish various goals of Open Science with a particular emphasis on the science of Parkinson’s disease.</p>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-bowmanLayeredFrameworkConsidering2018" class="csl-entry" role="listitem">
+Bowman, Nicholas David, and Justin Robert Keene. 2018. <span>“A <span>Layered Framework</span> for <span>Considering Open Science Practices</span>.”</span> <em>Communication Research Reports</em> 35 (4): 363–72. <a href="https://doi.org/10.1080/08824096.2018.1513273">https://doi.org/10.1080/08824096.2018.1513273</a>.
+</div>
+<div id="ref-dennisPrivacyOpenScience2019" class="csl-entry" role="listitem">
+Dennis, Simon, Paul Garrett, Hyungwook Yim, Jihun Hamm, Adam F. Osth, Vishnu Sreekumar, and Ben Stone. 2019. <span>“Privacy Versus Open Science.”</span> <em>Behavior Research Methods</em> 51 (4): 1839–48. <a href="https://doi.org/10.3758/s13428-019-01259-5">https://doi.org/10.3758/s13428-019-01259-5</a>.
+</div>
+<div id="ref-vicente-saezOpenScienceNow2018" class="csl-entry" role="listitem">
+Vicente-Saez, Ruben, and Clara Martinez-Fuentes. 2018. <span>“Open <span>Science</span> Now: <span>A</span> Systematic Literature Review for an Integrated Definition.”</span> <em>Journal of Business Research</em> 88 (July): 428–36. <a href="https://doi.org/10.1016/j.jbusres.2017.12.043">https://doi.org/10.1016/j.jbusres.2017.12.043</a>.
+</div>
+<div id="ref-wilkinsonFAIRGuidingPrinciples2016" class="csl-entry" role="listitem">
+Wilkinson, Mark D., Michel Dumontier, IJsbrand Jan Aalbersberg, Gabrielle Appleton, Myles Axton, Arie Baak, Niklas Blomberg, et al. 2016. <span>“The <span>FAIR Guiding Principles</span> for Scientific Data Management and Stewardship.”</span> <em>Scientific Data</em> 3 (1): 160018. <a href="https://doi.org/10.1038/sdata.2016.18">https://doi.org/10.1038/sdata.2016.18</a>.
+</div>
+</div>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

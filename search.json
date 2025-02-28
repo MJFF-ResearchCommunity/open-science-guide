@@ -14,7 +14,47 @@
     "href": "principles.html",
     "title": "1  Principles",
     "section": "",
-    "text": "Principles of Open Science goes here.",
+    "text": "1.1 Definitions\nLet us begin with addressing two fundamental questions:\nThis is a large and ongoing area of investigation that we cannot hope to cover in this brief chapter, so we recommend readers to view the cited publications to learn more.\n“Open Science is transparent and accessible knowledge that is shared and developed through collaborative networks” (Vicente-Saez and Martinez-Fuentes 2018).\nInvestigators can approach Open Science in a layered, gradient approach with increasing levels of transparency and accessibility (Bowman and Keene 2018):",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Principles</span>"
+    ]
+  },
+  {
+    "objectID": "principles.html#definitions",
+    "href": "principles.html#definitions",
+    "title": "1  Principles",
+    "section": "",
+    "text": "Figure 1.1. Layered framework for open science practices. Reproduced from Bowman, N. D., & Keene, J. R. (2018). A Layered Framework for Considering Open Science Practices. Communication Research Reports, 35(4), 363–372. https://doi.org/10.1080/08824096.2018.1513273",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Principles</span>"
+    ]
+  },
+  {
+    "objectID": "principles.html#importance",
+    "href": "principles.html#importance",
+    "title": "1  Principles",
+    "section": "1.2 Importance",
+    "text": "1.2 Importance\nWhy does transparency, accessibility, collaboration, and reproducibility matter? Below is a brief non-exhaustive list of potential benefits:\n\nIncreased effectiveness of the scientific method\n\nOpen science practices advance innovation and accelerate discoveries by allowing scientists to build on (and replicate) existing work more efficiently and effectively. Open Science fosters global collaboration by enabling researchers from different institutions, disciplines, and countries to work together.\n\nIncreased trust in scientific work\n\nOpen science practices help to reduce errors, building trust and confidence in findings across the research and public domains.\n\nIncreased benefit to the public and common good\n\nOpen Science aligns with ethical principles by promoting fairness, accountability, and knowledge sharing, ensuring that research contributes to the common good.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Principles</span>"
+    ]
+  },
+  {
+    "objectID": "principles.html#ethical-regulatory-considerations",
+    "href": "principles.html#ethical-regulatory-considerations",
+    "title": "1  Principles",
+    "section": "1.3 Ethical & Regulatory Considerations",
+    "text": "1.3 Ethical & Regulatory Considerations\nOne component of Open Science is data sharing. The FAIR Data Principles provide a framework to enhance the reusability of data (Wilkinson et al. 2016).\nFAIR Data Principles: Making data Findable, Accessible, Interoperable, and Reusable.\nHowever, careful consideration should be given to participants’ privacy when developing procedures (e.g., consent) for sharing data (Dennis et al. 2019).",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Principles</span>"
+    ]
+  },
+  {
+    "objectID": "principles.html#summary",
+    "href": "principles.html#summary",
+    "title": "1  Principles",
+    "section": "1.4 Summary",
+    "text": "1.4 Summary\nOpen Science is an umbrella term that encompasses many components of how scientific knowledge is shared, accessed, and developed. Following Open Science principles has pontential benefits to accelerating scientific innovation, increasing trust, and benefiting the common good.\nThe following chapters will list tools and resources that accomplish various goals of Open Science with a particular emphasis on the science of Parkinson’s disease.\n\n\n\n\nBowman, Nicholas David, and Justin Robert Keene. 2018. “A Layered Framework for Considering Open Science Practices.” Communication Research Reports 35 (4): 363–72. https://doi.org/10.1080/08824096.2018.1513273.\n\n\nDennis, Simon, Paul Garrett, Hyungwook Yim, Jihun Hamm, Adam F. Osth, Vishnu Sreekumar, and Ben Stone. 2019. “Privacy Versus Open Science.” Behavior Research Methods 51 (4): 1839–48. https://doi.org/10.3758/s13428-019-01259-5.\n\n\nVicente-Saez, Ruben, and Clara Martinez-Fuentes. 2018. “Open Science Now: A Systematic Literature Review for an Integrated Definition.” Journal of Business Research 88 (July): 428–36. https://doi.org/10.1016/j.jbusres.2017.12.043.\n\n\nWilkinson, Mark D., Michel Dumontier, IJsbrand Jan Aalbersberg, Gabrielle Appleton, Myles Axton, Arie Baak, Niklas Blomberg, et al. 2016. “The FAIR Guiding Principles for Scientific Data Management and Stewardship.” Scientific Data 3 (1): 160018. https://doi.org/10.1038/sdata.2016.18.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Principles</span>"
     ]
@@ -47,6 +87,16 @@
     "text": "examples of open science here.",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Examples</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Bowman, Nicholas David, and Justin Robert Keene. 2018. “A\nLayered Framework for Considering Open Science\nPractices.” Communication Research Reports 35\n(4): 363–72. https://doi.org/10.1080/08824096.2018.1513273.\n\n\nDennis, Simon, Paul Garrett, Hyungwook Yim, Jihun Hamm, Adam F. Osth,\nVishnu Sreekumar, and Ben Stone. 2019. “Privacy Versus Open\nScience.” Behavior Research Methods 51 (4): 1839–48. https://doi.org/10.3758/s13428-019-01259-5.\n\n\nVicente-Saez, Ruben, and Clara Martinez-Fuentes. 2018. “Open\nScience Now: A Systematic Literature Review\nfor an Integrated Definition.” Journal of Business\nResearch 88 (July): 428–36. https://doi.org/10.1016/j.jbusres.2017.12.043.\n\n\nWilkinson, Mark D., Michel Dumontier, IJsbrand Jan Aalbersberg,\nGabrielle Appleton, Myles Axton, Arie Baak, Niklas Blomberg, et al.\n2016. “The FAIR Guiding Principles for Scientific\nData Management and Stewardship.” Scientific Data 3 (1):\n160018. https://doi.org/10.1038/sdata.2016.18.",
+    "crumbs": [
+      "References"
     ]
   }
 ]
