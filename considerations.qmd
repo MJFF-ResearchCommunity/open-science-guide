@@ -1,3 +1,126 @@
 # Considerations
 
-considerations here.
+## Data Sharing & Privacy
+
+One component of Open Science is data sharing. The FAIR Data Principles provide a framework to enhance the reusability of data [@wilkinsonFAIRGuidingPrinciples2016].
+
+**FAIR** Data Principles: Making data **F**indable, **A**ccessible, **I**nteroperable, and **R**eusable.
+
+For an example, the [INCF](https://incf.org/) is employing FAIR Data Principles and has published a [FAIR roadmap for neuroscience](https://www.incf.org/incf-fair-roadmap).
+
+Careful consideration should be given to participants' privacy when developing procedures (e.g., consent) for sharing data [@dennisPrivacyOpenScience2019].
+
+
+### Where to share your data
+
+- [Zenodo](https://zenodo.org/)  
+- [Kaggle](https://www.kaggle.com/)  
+- [OSF (Open Science Framework)](https://osf.io/)  
+- [Dryad](https://datadryad.org/)  
+
+If data is publicly available, provide a link to the source. If data cannot be shared, consider providing a **sample dataset** in the repository.  
+
+### Data privacy
+
+While open science promotes transparency, some data must remain private:  
+
+- **Personally Identifiable Information (PII)**: Follow legal guidelines (e.g., GDPR, HIPAA).  
+- **Sensitive datasets**: Use controlled-access repositories when needed.  
+- **Anonymization**: If sharing is restricted, remove identifiable details or aggregate data.  
+
+
+## Project Folder Structure
+
+A well-structured project is **transparent, reproducible, and reusable**. A clear and consistent folder structure makes collaboration easier and ensures reproducibility. Here’s a basic template for a data science project: 
+
+```
+├── data/          # Raw & processed datasets  
+├── scripts/       # Code and analysis scripts  
+├── results/       # Figures, tables, and outputs  
+├── docs/          # Documentation and notes  
+├── env/           # Dependency files (requirements.txt, environment.yml)  
+├── README.md      # Project overview  
+└── LICENSE        # License for open-source sharing  
+```
+
+For best practices in structuring projects, consider these templates:
+
+- [Small Project Template](https://github.com/MJFF-ResearchCommunity/small-analysis-project-template)  
+- [Cookiecutter Data Science](https://drivendata.github.io/cookiecutter-data-science/)
+
+
+## Code Accessibility & Version Control
+
+Using version control (e.g., [Git](https://git-scm.com/docs/user-manual)) ensures **traceability, collaboration, and reproducibility**. 
+
+A public repository allows easy access and contributions. Here are places where you can store your version-controlled code publicly:
+
+- [GitHub](https://github.com/)
+- [GitLab](https://about.gitlab.com/)
+- [Bitbucket](https://bitbucket.org/product/)
+
+### Environment Setup
+
+Reproducibility depends on properly defined environments:
+
+- **Python**: `requirements.txt` or `environment.yml` (for Conda)  
+- **R**: `renv.lock`  
+- **Docker**: `Dockerfile` for containerized workflows  
+
+### File paths  
+
+- **Use relative paths** in your code for better portability (`../data/file.csv`).  
+- Avoid **absolute paths** (`/home/user/project/data/file.csv`) as they may break across systems.  
+
+
+## Documentation: The Key to Reusability
+
+Comprehensive documentation ensures that others can understand, reproduce, and extend your work.  
+
+### Essential documentation
+
+- **README**: Overview of the project, setup instructions, and usage.  
+- **Data Dictionary**: Describes datasets, variables, and formats.  
+- **Code Documentation**: Use clear comments and docstrings (`"""docstring"""`).  
+- **Version Control Logs**: Track changes in a `CHANGELOG.md` or commit messages.  
+
+### Three levels of documentation
+
+1. **User-level**: Instructions for external users (README files, tutorials).  
+2. **Developer-level**: Internal notes for contributors (code comments, design docs).  
+3. **Machine-readable**: Metadata in structured formats (e.g., JSON, YAML) for automation.  
+
+
+## Pre-registration & Study Design Transparency
+
+Pre-registration strengthens research integrity by documenting hypotheses and methods **before** data collection. Pre-registration does **not** limit flexibility—it simply provides a record of initial research intentions.
+
+### What to pre-register
+
+- Research questions & hypotheses  
+- Planned methods & analysis approach  
+- Expected outcomes  
+
+### Where to pre-register
+
+- [AsPredicted](https://aspredicted.org/) – Simple pre-registration for hypothesis-driven studies.  
+- [Open Science Framework (OSF)](https://osf.io/) – More detailed project documentation.  
+- [ClinicalTrials.gov](https://clinicaltrials.gov/) – Required for clinical research.
+
+
+## Making Projects Citeable
+
+We recommend establishing or creating a Digital Object Identifier (DOI) to enable researchers and the public to easily cite and access your work. A DOI is a permanent, unique identifier assigned to digital objects such as research papers, datasets, software, and code repositories. It provides a stable and citable link to the content, even if the location (URL) changes.
+
+For example, a DOI link will look like this: [https://doi.org/10.5281/zenodo.14984668](https://doi.org/10.5281/zenodo.14984668) with **10.5281/zenodo.14984668** representing the DOI. It will always resolve to the same location.
+
+::: {.callout-note}
+Note that [10.5281/zenodo.14984668](https://doi.org/10.5281/zenodo.14984668) is in fact the DOI for this online book! Fun fact, with new pushes to the GitHub repository that hosts this book, Zenodo will automatically keep track of updates, while the DOI will always resolve to the latest version.
+:::
+
+Here are some recommended places to create a DOI depending on where your Open Science project lives:
+
+* For a GitHub repository → [Zenodo](https://zenodo.org/) (automatic DOI for software releases).
+* For datasets → [Figshare](https://figshare.com/), [Dryad](https://datadryad.org/), or [Zenodo](https://zenodo.org/).
+* For a general research project → [OSF](https://osf.io/).
+
