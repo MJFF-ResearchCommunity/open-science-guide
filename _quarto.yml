@@ -2,12 +2,16 @@ project:
   type: book
 
 book:
-  title: "Open Science Guide"
+  title: "Open Science Guide for Parkinson's Research"
   author:
     - name: "Matthew J. Kmiecik"
       email: "mattk@23andme.com"
       orcid: "0000-0001-5340-3872"
-  date: "11/5/2024"
+    - name: "Hirotaka Iwaki"
+      email: "hirotaka@datatecnica.com"
+      orcid: "0000-0002-8982-7885"
+  date: today
+  doi: "10.5281/zenodo.14984668"
   navbar:
     left: 
       - icon: github

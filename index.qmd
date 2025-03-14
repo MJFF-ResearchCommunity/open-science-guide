@@ -21,6 +21,72 @@ Feel free to contribute if you find a section with missing, incomplete, or incor
 
 3. Clone our GitHub [repo](https://github.com/MJFF-ResearchCommunity/open-science-guide), create a branch, modify documents, and submit a pull request
 
+# Step-by-step to contribute on Github
+
+1. **Fork the repository**:  
+   - Go to the GitHub page of the repository you want to contribute to.  
+   - Click the "Fork" button (this creates a copy of the repository under your GitHub account).  
+
+2. **Clone your fork**:  
+   - Open a terminal and run the following command, replacing `your-username/repo-name` with your GitHub username and the name of the repository:  
+     ```bash
+     git clone https://github.com/your-username/repo-name.git
+     ```
+   - Change into the cloned directory:  
+     ```bash
+     cd repo-name
+     ```
+
+3. **Set up the original repository as a remote** (optional but recommended):  
+   - This allows you to keep your fork updated with the latest changes from the original repository.  
+     ```bash
+     git remote add upstream https://github.com/original-owner/repo-name.git
+     git fetch upstream
+     ```
+
+4. **Create a new branch for your changes**:  
+   - It’s good practice to make changes on a separate branch instead of `main`.  
+     ```bash
+     git checkout -b feature-branch-name
+     ```
+   - Replace `feature-branch-name` with a descriptive name for your changes (e.g., `fix-typo-docs`).
+
+5. **Make your changes and commit them**:  
+   - Edit the files as needed.  
+   - Stage your changes:  
+     ```bash
+     git add .
+     ```
+   - Commit your changes with a descriptive message:  
+     ```bash
+     git commit -m "Brief description of your changes"
+     ```
+
+6. **Keep your branch up to date** *(to prevent conflicts)*:  
+   - Before pushing your changes, update your branch with the latest changes from the original repository:  
+     ```bash
+     git fetch upstream
+     git merge upstream/main
+     ```
+   - If there are conflicts, resolve them before continuing.
+
+7. **Push your changes to your fork**:  
+   - Once your branch is up to date, push it to your GitHub fork:  
+     ```bash
+     git push origin feature-branch-name
+     ```
+
+8. **Create a Pull Request (PR)**:  
+   - Go to your forked repository on GitHub.  
+   - Click the “Compare & pull request” button.  
+   - Provide a clear description of your changes and submit the PR.  
+
+---
+
+### Notes:
+- If you are asked to make changes, update your branch, commit the changes, and push again.  
+- If you're unfamiliar with resolving merge conflicts, GitHub provides a web interface to help you.
+
 # Acknowledgements
 
 This project is supported by the Michael J. Fox Foundation for Parkinson's Research.

@@ -31,14 +31,6 @@ Open science practices help to reduce errors, building trust and confidence in f
 
 Open Science aligns with ethical principles by promoting fairness, accountability, and knowledge sharing, ensuring that research contributes to the common good.
 
-## Ethical & Regulatory Considerations
-
-One component of Open Science is data sharing. The FAIR Data Principles provide a framework to enhance the reusability of data [@wilkinsonFAIRGuidingPrinciples2016].
-
-**FAIR** Data Principles: Making data **F**indable, **A**ccessible, **I**nteroperable, and **R**eusable.
-
-However, careful consideration should be given to participants' privacy when developing procedures (e.g., consent) for sharing data [@dennisPrivacyOpenScience2019].
-
 ## Summary
 
 Open Science is an umbrella term that encompasses many components of how scientific knowledge is shared, accessed, and developed. Following Open Science principles has pontential benefits to accelerating scientific innovation, increasing trust, and benefiting the common good. 
