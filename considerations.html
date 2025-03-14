@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>2&nbsp; Considerations – Open Science Guide</title>
+<title>2&nbsp; Considerations – Open Science Guide for Parkinson's Research</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -80,7 +100,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Open Science Guide</span>
+    <span class="navbar-title">Open Science Guide for Parkinson’s Research</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -158,8 +178,35 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#data-sharing-privacy" id="toc-data-sharing-privacy" class="nav-link active" data-scroll-target="#data-sharing-privacy"><span class="header-section-number">2.1</span> Data Sharing &amp; Privacy</a>
+  <ul class="collapse">
+  <li><a href="#where-to-share-your-data" id="toc-where-to-share-your-data" class="nav-link" data-scroll-target="#where-to-share-your-data"><span class="header-section-number">2.1.1</span> Where to share your data</a></li>
+  <li><a href="#data-privacy" id="toc-data-privacy" class="nav-link" data-scroll-target="#data-privacy"><span class="header-section-number">2.1.2</span> Data privacy</a></li>
+  </ul></li>
+  <li><a href="#project-folder-structure" id="toc-project-folder-structure" class="nav-link" data-scroll-target="#project-folder-structure"><span class="header-section-number">2.2</span> Project Folder Structure</a></li>
+  <li><a href="#code-accessibility-version-control" id="toc-code-accessibility-version-control" class="nav-link" data-scroll-target="#code-accessibility-version-control"><span class="header-section-number">2.3</span> Code Accessibility &amp; Version Control</a>
+  <ul class="collapse">
+  <li><a href="#environment-setup" id="toc-environment-setup" class="nav-link" data-scroll-target="#environment-setup"><span class="header-section-number">2.3.1</span> Environment Setup</a></li>
+  <li><a href="#file-paths" id="toc-file-paths" class="nav-link" data-scroll-target="#file-paths"><span class="header-section-number">2.3.2</span> File paths</a></li>
+  </ul></li>
+  <li><a href="#documentation-the-key-to-reusability" id="toc-documentation-the-key-to-reusability" class="nav-link" data-scroll-target="#documentation-the-key-to-reusability"><span class="header-section-number">2.4</span> Documentation: The Key to Reusability</a>
+  <ul class="collapse">
+  <li><a href="#essential-documentation" id="toc-essential-documentation" class="nav-link" data-scroll-target="#essential-documentation"><span class="header-section-number">2.4.1</span> Essential documentation</a></li>
+  <li><a href="#three-levels-of-documentation" id="toc-three-levels-of-documentation" class="nav-link" data-scroll-target="#three-levels-of-documentation"><span class="header-section-number">2.4.2</span> Three levels of documentation</a></li>
+  </ul></li>
+  <li><a href="#pre-registration-study-design-transparency" id="toc-pre-registration-study-design-transparency" class="nav-link" data-scroll-target="#pre-registration-study-design-transparency"><span class="header-section-number">2.5</span> Pre-registration &amp; Study Design Transparency</a>
+  <ul class="collapse">
+  <li><a href="#what-to-pre-register" id="toc-what-to-pre-register" class="nav-link" data-scroll-target="#what-to-pre-register"><span class="header-section-number">2.5.1</span> What to pre-register</a></li>
+  <li><a href="#where-to-pre-register" id="toc-where-to-pre-register" class="nav-link" data-scroll-target="#where-to-pre-register"><span class="header-section-number">2.5.2</span> Where to pre-register</a></li>
+  </ul></li>
+  <li><a href="#making-projects-citeable" id="toc-making-projects-citeable" class="nav-link" data-scroll-target="#making-projects-citeable"><span class="header-section-number">2.6</span> Making Projects Citeable</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -183,9 +230,167 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>considerations here.</p>
+<section id="data-sharing-privacy" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="data-sharing-privacy"><span class="header-section-number">2.1</span> Data Sharing &amp; Privacy</h2>
+<p>One component of Open Science is data sharing. The FAIR Data Principles provide a framework to enhance the reusability of data <span class="citation" data-cites="wilkinsonFAIRGuidingPrinciples2016">(<a href="references.html#ref-wilkinsonFAIRGuidingPrinciples2016" role="doc-biblioref">Wilkinson et al. 2016</a>)</span>.</p>
+<p><strong>FAIR</strong> Data Principles: Making data <strong>F</strong>indable, <strong>A</strong>ccessible, <strong>I</strong>nteroperable, and <strong>R</strong>eusable.</p>
+<p>For an example, the <a href="https://incf.org/">INCF</a> is employing FAIR Data Principles and has published a <a href="https://www.incf.org/incf-fair-roadmap">FAIR roadmap for neuroscience</a>.</p>
+<p>Careful consideration should be given to participants’ privacy when developing procedures (e.g., consent) for sharing data <span class="citation" data-cites="dennisPrivacyOpenScience2019">(<a href="references.html#ref-dennisPrivacyOpenScience2019" role="doc-biblioref">Dennis et al. 2019</a>)</span>.</p>
+<section id="where-to-share-your-data" class="level3" data-number="2.1.1">
+<h3 data-number="2.1.1" class="anchored" data-anchor-id="where-to-share-your-data"><span class="header-section-number">2.1.1</span> Where to share your data</h3>
+<ul>
+<li><a href="https://zenodo.org/">Zenodo</a><br>
+</li>
+<li><a href="https://www.kaggle.com/">Kaggle</a><br>
+</li>
+<li><a href="https://osf.io/">OSF (Open Science Framework)</a><br>
+</li>
+<li><a href="https://datadryad.org/">Dryad</a></li>
+</ul>
+<p>If data is publicly available, provide a link to the source. If data cannot be shared, consider providing a <strong>sample dataset</strong> in the repository.</p>
+</section>
+<section id="data-privacy" class="level3" data-number="2.1.2">
+<h3 data-number="2.1.2" class="anchored" data-anchor-id="data-privacy"><span class="header-section-number">2.1.2</span> Data privacy</h3>
+<p>While open science promotes transparency, some data must remain private:</p>
+<ul>
+<li><strong>Personally Identifiable Information (PII)</strong>: Follow legal guidelines (e.g., GDPR, HIPAA).<br>
+</li>
+<li><strong>Sensitive datasets</strong>: Use controlled-access repositories when needed.<br>
+</li>
+<li><strong>Anonymization</strong>: If sharing is restricted, remove identifiable details or aggregate data.</li>
+</ul>
+</section>
+</section>
+<section id="project-folder-structure" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="project-folder-structure"><span class="header-section-number">2.2</span> Project Folder Structure</h2>
+<p>A well-structured project is <strong>transparent, reproducible, and reusable</strong>. A clear and consistent folder structure makes collaboration easier and ensures reproducibility. Here’s a basic template for a data science project:</p>
+<pre><code>├── data/          # Raw &amp; processed datasets  
+├── scripts/       # Code and analysis scripts  
+├── results/       # Figures, tables, and outputs  
+├── docs/          # Documentation and notes  
+├── env/           # Dependency files (requirements.txt, environment.yml)  
+├── README.md      # Project overview  
+└── LICENSE        # License for open-source sharing  </code></pre>
+<p>For best practices in structuring projects, consider these templates:</p>
+<ul>
+<li><a href="https://github.com/MJFF-ResearchCommunity/small-analysis-project-template">Small Project Template</a><br>
+</li>
+<li><a href="https://drivendata.github.io/cookiecutter-data-science/">Cookiecutter Data Science</a></li>
+</ul>
+</section>
+<section id="code-accessibility-version-control" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="code-accessibility-version-control"><span class="header-section-number">2.3</span> Code Accessibility &amp; Version Control</h2>
+<p>Using version control (e.g., <a href="https://git-scm.com/docs/user-manual">Git</a>) ensures <strong>traceability, collaboration, and reproducibility</strong>.</p>
+<p>A public repository allows easy access and contributions. Here are places where you can store your version-controlled code publicly:</p>
+<ul>
+<li><a href="https://github.com/">GitHub</a></li>
+<li><a href="https://about.gitlab.com/">GitLab</a></li>
+<li><a href="https://bitbucket.org/product/">Bitbucket</a></li>
+</ul>
+<section id="environment-setup" class="level3" data-number="2.3.1">
+<h3 data-number="2.3.1" class="anchored" data-anchor-id="environment-setup"><span class="header-section-number">2.3.1</span> Environment Setup</h3>
+<p>Reproducibility depends on properly defined environments:</p>
+<ul>
+<li><strong>Python</strong>: <code>requirements.txt</code> or <code>environment.yml</code> (for Conda)<br>
+</li>
+<li><strong>R</strong>: <code>renv.lock</code><br>
+</li>
+<li><strong>Docker</strong>: <code>Dockerfile</code> for containerized workflows</li>
+</ul>
+</section>
+<section id="file-paths" class="level3" data-number="2.3.2">
+<h3 data-number="2.3.2" class="anchored" data-anchor-id="file-paths"><span class="header-section-number">2.3.2</span> File paths</h3>
+<ul>
+<li><strong>Use relative paths</strong> in your code for better portability (<code>../data/file.csv</code>).<br>
+</li>
+<li>Avoid <strong>absolute paths</strong> (<code>/home/user/project/data/file.csv</code>) as they may break across systems.</li>
+</ul>
+</section>
+</section>
+<section id="documentation-the-key-to-reusability" class="level2" data-number="2.4">
+<h2 data-number="2.4" class="anchored" data-anchor-id="documentation-the-key-to-reusability"><span class="header-section-number">2.4</span> Documentation: The Key to Reusability</h2>
+<p>Comprehensive documentation ensures that others can understand, reproduce, and extend your work.</p>
+<section id="essential-documentation" class="level3" data-number="2.4.1">
+<h3 data-number="2.4.1" class="anchored" data-anchor-id="essential-documentation"><span class="header-section-number">2.4.1</span> Essential documentation</h3>
+<ul>
+<li><strong>README</strong>: Overview of the project, setup instructions, and usage.<br>
+</li>
+<li><strong>Data Dictionary</strong>: Describes datasets, variables, and formats.<br>
+</li>
+<li><strong>Code Documentation</strong>: Use clear comments and docstrings (<code>"""docstring"""</code>).<br>
+</li>
+<li><strong>Version Control Logs</strong>: Track changes in a <code>CHANGELOG.md</code> or commit messages.</li>
+</ul>
+</section>
+<section id="three-levels-of-documentation" class="level3" data-number="2.4.2">
+<h3 data-number="2.4.2" class="anchored" data-anchor-id="three-levels-of-documentation"><span class="header-section-number">2.4.2</span> Three levels of documentation</h3>
+<ol type="1">
+<li><strong>User-level</strong>: Instructions for external users (README files, tutorials).<br>
+</li>
+<li><strong>Developer-level</strong>: Internal notes for contributors (code comments, design docs).<br>
+</li>
+<li><strong>Machine-readable</strong>: Metadata in structured formats (e.g., JSON, YAML) for automation.</li>
+</ol>
+</section>
+</section>
+<section id="pre-registration-study-design-transparency" class="level2" data-number="2.5">
+<h2 data-number="2.5" class="anchored" data-anchor-id="pre-registration-study-design-transparency"><span class="header-section-number">2.5</span> Pre-registration &amp; Study Design Transparency</h2>
+<p>Pre-registration strengthens research integrity by documenting hypotheses and methods <strong>before</strong> data collection. Pre-registration does <strong>not</strong> limit flexibility—it simply provides a record of initial research intentions.</p>
+<section id="what-to-pre-register" class="level3" data-number="2.5.1">
+<h3 data-number="2.5.1" class="anchored" data-anchor-id="what-to-pre-register"><span class="header-section-number">2.5.1</span> What to pre-register</h3>
+<ul>
+<li>Research questions &amp; hypotheses<br>
+</li>
+<li>Planned methods &amp; analysis approach<br>
+</li>
+<li>Expected outcomes</li>
+</ul>
+</section>
+<section id="where-to-pre-register" class="level3" data-number="2.5.2">
+<h3 data-number="2.5.2" class="anchored" data-anchor-id="where-to-pre-register"><span class="header-section-number">2.5.2</span> Where to pre-register</h3>
+<ul>
+<li><a href="https://aspredicted.org/">AsPredicted</a> – Simple pre-registration for hypothesis-driven studies.<br>
+</li>
+<li><a href="https://osf.io/">Open Science Framework (OSF)</a> – More detailed project documentation.<br>
+</li>
+<li><a href="https://clinicaltrials.gov/">ClinicalTrials.gov</a> – Required for clinical research.</li>
+</ul>
+</section>
+</section>
+<section id="making-projects-citeable" class="level2" data-number="2.6">
+<h2 data-number="2.6" class="anchored" data-anchor-id="making-projects-citeable"><span class="header-section-number">2.6</span> Making Projects Citeable</h2>
+<p>We recommend establishing or creating a Digital Object Identifier (DOI) to enable researchers and the public to easily cite and access your work. A DOI is a permanent, unique identifier assigned to digital objects such as research papers, datasets, software, and code repositories. It provides a stable and citable link to the content, even if the location (URL) changes.</p>
+<p>For example, a DOI link will look like this: <a href="https://doi.org/10.5281/zenodo.14984668">https://doi.org/10.5281/zenodo.14984668</a> with <strong>10.5281/zenodo.14984668</strong> representing the DOI. It will always resolve to the same location.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Note that <a href="https://doi.org/10.5281/zenodo.14984668">10.5281/zenodo.14984668</a> is in fact the DOI for this online book! Fun fact, with new pushes to the GitHub repository that hosts this book, Zenodo will automatically keep track of updates, while the DOI will always resolve to the latest version.</p>
+</div>
+</div>
+<p>Here are some recommended places to create a DOI depending on where your Open Science project lives:</p>
+<ul>
+<li>For a GitHub repository → <a href="https://zenodo.org/">Zenodo</a> (automatic DOI for software releases).</li>
+<li>For datasets → <a href="https://figshare.com/">Figshare</a>, <a href="https://datadryad.org/">Dryad</a>, or <a href="https://zenodo.org/">Zenodo</a>.</li>
+<li>For a general research project → <a href="https://osf.io/">OSF</a>.</li>
+</ul>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-dennisPrivacyOpenScience2019" class="csl-entry" role="listitem">
+Dennis, Simon, Paul Garrett, Hyungwook Yim, Jihun Hamm, Adam F. Osth, Vishnu Sreekumar, and Ben Stone. 2019. <span>“Privacy Versus Open Science.”</span> <em>Behavior Research Methods</em> 51 (4): 1839–48. <a href="https://doi.org/10.3758/s13428-019-01259-5">https://doi.org/10.3758/s13428-019-01259-5</a>.
+</div>
+<div id="ref-wilkinsonFAIRGuidingPrinciples2016" class="csl-entry" role="listitem">
+Wilkinson, Mark D., Michel Dumontier, IJsbrand Jan Aalbersberg, Gabrielle Appleton, Myles Axton, Arie Baak, Niklas Blomberg, et al. 2016. <span>“The <span>FAIR Guiding Principles</span> for Scientific Data Management and Stewardship.”</span> <em>Scientific Data</em> 3 (1): 160018. <a href="https://doi.org/10.1038/sdata.2016.18">https://doi.org/10.1038/sdata.2016.18</a>.
+</div>
+</div>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
