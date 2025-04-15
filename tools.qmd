@@ -1,6 +1,6 @@
 # Tools {#sec-tools}
 
-This chapter aims to provide readers with a comprehensive list of tools (e.g, software, websites, checklists) that facilitate the principles of open science (see @sec-principles). Our aim is to inspire discovery of new tools and awareness of options for researchers to explore when conducting open science projects.
+This chapter aims to provide readers with a comprehensive list of tools (e.g, software, websites, checklists) that facilitate the principles of open science (see @sec-principles). Our aim is to inspire discovery of new tools and awareness of options for researchers to explore when conducting open science projects in Parkinson's disease.
 
 ## Data Management & Sharing
 
@@ -11,49 +11,63 @@ This chapter aims to provide readers with a comprehensive list of tools (e.g, so
 * **[PhysioNet](https://physionet.org/)**: Repository of freely-available medical research data, managed by the MIT Laboratory for Computational Physiology.
 * **[Synapse](https://www.synapse.org/)**: Collaborative compute space that allows scientists to share and analyze data
 
+## Parkinson's Disease-Specific Data Tools
+
+* **[Getting Started with Parkinson's Disease Data](https://doi.org/10.5281/zenodo.11167237)**: living document that enables researchers to get started with AMP PD, PPMI, GP2, and Fox Insight data sets
+* **[Useful PPMI Clinical Codes](https://github.com/MJFF-ResearchCommunity/Useful-PPMI-Clinical-Codes/tree/main)**: facilitates access to clinical data available in the Parkinson's Progression Markers Initiative (PPMI) study
+* **[Parkinson’s Insight Engine (PIE)](https://github.com/MJFF-ResearchCommunity/PIE)**: enables efficient data cleaning, feature engineering, and preparation for machine learning tasks using multi-modal data (clinical, imaging, biologic, genetic) while ensuring ease of use and reproducibility for PPMI and other MJFF data
 
 ## Open Access Publishing
 
 * **[arXiv](https://arxiv.org/)**: Preprint server primarily for physics, mathematics, and computer science papers.
 * **[bioRxiv](https://www.biorxiv.org/)**: Preprint server primarily for papers in biology. 
 * **[medRxiv](https://www.medrxiv.org/)**: Preprint server for the health sciences
+* **[Research Square](https://www.researchsquare.com/)**: multidisciplinary preprint and author services platform
 * Open access journals
 
 ## Reporting Checklists
 
-** CONSORT/STROBE etc.
+* **[Enhancing the QUAlity and Transparency Of health Research (EQUATOR)](https://www.equator-network.org/)**: many of these checklists are required for journal submission and can serve as a handy guide when preparing scientific publications (e.g., CONSORT, STROBE, PRISMA, etc.)
 
 ## Open-Source Programming Languages
 
 * **[Python](https://www.python.org/)**: general-purpose programming language used in web development, data analysis, machine learning, and automation
-* **[R](https://www.r-project.org/)**: a free software environment for statistical computing and graphics.
+* **[R](https://www.r-project.org/)**: a free software environment for statistical computing and graphics
 
+## Version Control
+
+* **[Git](https://git-scm.com/docs/user-manual)**: lightweight distributed version control system
+* **[GitHub](https://github.com/)**: platform for hosting and collaborating on code built on `git`
+* **[GitLab](https://about.gitlab.com/)**: all-in-one DevOps platform built on `git`
+* **[Bitbucket](https://bitbucket.org/product/)**: code collaboration platform in the Atlassian ecosystem compatible with `git`
 
 ## Reproducibility Tools
 
-* **[Jupyter](https://jupyter.org/)**: Web application for creating and sharing documents with live code, equations, visualizations, and narrative text.
-* **[RStudio](https://posit.co/download/rstudio-desktop/)**: integrated development environment (IDE) with tools built to help you be more productive with R and Python.
+* **[Jupyter](https://jupyter.org/)**: Web application for creating and sharing documents with live code, equations, visualizations, and narrative text
+* **[RStudio](https://posit.co/download/rstudio-desktop/)**: integrated development environment (IDE) with tools built to help you be more productive with R and Python
 * **[R Markdown](https://rmarkdown.rstudio.com/)**: Framework for combining results and prose in reproducible documents across multiple programming languages
-* **[quarto](https://quarto.org/)**: an open-source scientific and technical publishing system 
+* **[quarto](https://quarto.org/)**: an open-source scientific and technical publishing system
+* **[Visual Studio Code](https://code.visualstudio.com/)**: streamlined code editor 
 
 ::: {.callout-tip}
 ## Fun fact!
 
-This online book you are reading was developed and hosted with open source tools, including R/RStudio, quarto, git/GitHub, and Zenodo. Pretty cool!
+This online book was developed and hosted with open source tools, including R/RStudio, quarto, git/GitHub, and Zenodo. Pretty cool!
 :::
 
-## Collaboration Platforms
+## Collaboration Tools and Platforms
 
-* **[Overleaf](https://www.overleaf.com/)**: Online $\LaTeX$ editor with real-time collaboration and version control features.
-* **[Trello](https://trello.com/home)**/**[Asana](https://asana.com/?noredirect)**: Project management tools for organizing tasks, workflows, and collaborations (free for small teams).
+* **[Overleaf](https://www.overleaf.com/)**: Online $\LaTeX$ editor with real-time collaboration and version control features
+* **[Trello](https://trello.com/home)**/**[Asana](https://asana.com/?noredirect)**: Project management tools for organizing tasks, workflows, and collaborations (free for small teams)
 * **[Slack](https://slack.com/)**: messaging and collaboration platform designed for teams and workplaces
 * **[Box](https://www.box.com/home)**: share, edit, co-create content
 * **[Google Drive](https://workspace.google.com/products/drive/)**: cloud storage for seamless file sharing and enhanced collaboration
 * **[ResearchGate](https://www.researchgate.net/)**: social networking platform designed for researchers, scientists, and academics to share their work, collaborate, and stay updated on research developments
+* **[PubPeer](https://pubpeer.com/)**: post-publication peer review forum
 
 ## Open Education Resources
 
-* **OpenStax**: Nonprofit educational initiative providing free, peer-reviewed, openly licensed textbooks.
-* **Coursera/edX**: Platforms offering free access to university courses (some certificates may require payment).
-* **MIT OpenCourseWare**: Web-based publication of virtually all MIT course content, freely available to anyone.
-* **Open Textbook Library**: Collection of free, peer-reviewed, and openly-licensed textbooks.
+* **[OpenStax](https://openstax.org/)**: Nonprofit educational initiative providing free, peer-reviewed, openly licensed textbooks
+* **[Coursera](https://www.coursera.org/)/[edX](https://www.edx.org/)**: Platforms offering free access to university courses (some certificates may require payment)
+* **[MIT OpenCourseWare](https://ocw.mit.edu/)**: Web-based publication of virtually all MIT course content, freely available to anyone
+* **[Open Textbook Library](https://open.umn.edu/opentextbooks)**: Collection of free, peer-reviewed, and openly-licensed textbooks
