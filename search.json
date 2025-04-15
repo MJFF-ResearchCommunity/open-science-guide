@@ -124,7 +124,97 @@
     "href": "tools.html",
     "title": "3  Tools",
     "section": "",
-    "text": "tools for open science here.",
+    "text": "3.1 Data Management & Sharing\nThis chapter aims to provide readers with a comprehensive list of tools (e.g, software, websites, checklists) that facilitate the principles of open science (see Chapter 1). Our aim is to inspire discovery of new tools and awareness of options for researchers to explore when conducting open science projects in Parkinson’s disease.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Tools</span>"
+    ]
+  },
+  {
+    "objectID": "tools.html#data-management-sharing",
+    "href": "tools.html#data-management-sharing",
+    "title": "3  Tools",
+    "section": "",
+    "text": "Zenodo: A CERN-backed repository that assigns DOIs to datasets, code, and other research outputs. Supports versioning and integration with GitHub.\nFigshare: Platform for storing, sharing, and discovering research data with built-in metrics and DOI assignment.\nOpen Science Framework (OSF): All-in-one platform for project management, collaboration, and sharing of research materials with version control.\nMendeley Data: Free and secure cloud-based communal repository where you can store your data, ensuring it is easy to share, access and cite.\nPhysioNet: Repository of freely-available medical research data, managed by the MIT Laboratory for Computational Physiology.\nSynapse: Collaborative compute space that allows scientists to share and analyze data",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Tools</span>"
+    ]
+  },
+  {
+    "objectID": "tools.html#parkinsons-disease-specific-data-tools",
+    "href": "tools.html#parkinsons-disease-specific-data-tools",
+    "title": "3  Tools",
+    "section": "3.2 Parkinson’s Disease-Specific Data Tools",
+    "text": "3.2 Parkinson’s Disease-Specific Data Tools\n\nGetting Started with Parkinson’s Disease Data: living document that enables researchers to get started with AMP PD, PPMI, GP2, and Fox Insight data sets\nUseful PPMI Clinical Codes: facilitates access to clinical data available in the Parkinson’s Progression Markers Initiative (PPMI) study\nParkinson’s Insight Engine (PIE): enables efficient data cleaning, feature engineering, and preparation for machine learning tasks using multi-modal data (clinical, imaging, biologic, genetic) while ensuring ease of use and reproducibility for PPMI and other MJFF data",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Tools</span>"
+    ]
+  },
+  {
+    "objectID": "tools.html#open-access-publishing",
+    "href": "tools.html#open-access-publishing",
+    "title": "3  Tools",
+    "section": "3.3 Open Access Publishing",
+    "text": "3.3 Open Access Publishing\n\narXiv: Preprint server primarily for physics, mathematics, and computer science papers.\nbioRxiv: Preprint server primarily for papers in biology.\nmedRxiv: Preprint server for the health sciences\nResearch Square: multidisciplinary preprint and author services platform\nOpen access journals",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Tools</span>"
+    ]
+  },
+  {
+    "objectID": "tools.html#reporting-checklists",
+    "href": "tools.html#reporting-checklists",
+    "title": "3  Tools",
+    "section": "3.4 Reporting Checklists",
+    "text": "3.4 Reporting Checklists\n\nEnhancing the QUAlity and Transparency Of health Research (EQUATOR): many of these checklists are required for journal submission and can serve as a handy guide when preparing scientific publications (e.g., CONSORT, STROBE, PRISMA, etc.)",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Tools</span>"
+    ]
+  },
+  {
+    "objectID": "tools.html#open-source-programming-languages",
+    "href": "tools.html#open-source-programming-languages",
+    "title": "3  Tools",
+    "section": "3.5 Open-Source Programming Languages",
+    "text": "3.5 Open-Source Programming Languages\n\nPython: general-purpose programming language used in web development, data analysis, machine learning, and automation\nR: a free software environment for statistical computing and graphics",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Tools</span>"
+    ]
+  },
+  {
+    "objectID": "tools.html#version-control",
+    "href": "tools.html#version-control",
+    "title": "3  Tools",
+    "section": "3.6 Version Control",
+    "text": "3.6 Version Control\n\nGit: lightweight distributed version control system\nGitHub: platform for hosting and collaborating on code built on git\nGitLab: all-in-one DevOps platform built on git\nBitbucket: code collaboration platform in the Atlassian ecosystem compatible with git",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Tools</span>"
+    ]
+  },
+  {
+    "objectID": "tools.html#reproducibility-tools",
+    "href": "tools.html#reproducibility-tools",
+    "title": "3  Tools",
+    "section": "3.7 Reproducibility Tools",
+    "text": "3.7 Reproducibility Tools\n\nJupyter: Web application for creating and sharing documents with live code, equations, visualizations, and narrative text\nRStudio: integrated development environment (IDE) with tools built to help you be more productive with R and Python\nR Markdown: Framework for combining results and prose in reproducible documents across multiple programming languages\nquarto: an open-source scientific and technical publishing system\nVisual Studio Code: streamlined code editor\n\n\n\n\n\n\n\nFun fact!\n\n\n\nThis online book was developed and hosted with open source tools, including R/RStudio, quarto, git/GitHub, and Zenodo. Pretty cool!",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Tools</span>"
+    ]
+  },
+  {
+    "objectID": "tools.html#collaboration-tools-and-platforms",
+    "href": "tools.html#collaboration-tools-and-platforms",
+    "title": "3  Tools",
+    "section": "3.8 Collaboration Tools and Platforms",
+    "text": "3.8 Collaboration Tools and Platforms\n\nOverleaf: Online \\(\\LaTeX\\) editor with real-time collaboration and version control features\nTrello/Asana: Project management tools for organizing tasks, workflows, and collaborations (free for small teams)\nSlack: messaging and collaboration platform designed for teams and workplaces\nBox: share, edit, co-create content\nGoogle Drive: cloud storage for seamless file sharing and enhanced collaboration\nResearchGate: social networking platform designed for researchers, scientists, and academics to share their work, collaborate, and stay updated on research developments\nPubPeer: post-publication peer review forum",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Tools</span>"
+    ]
+  },
+  {
+    "objectID": "tools.html#open-education-resources",
+    "href": "tools.html#open-education-resources",
+    "title": "3  Tools",
+    "section": "3.9 Open Education Resources",
+    "text": "3.9 Open Education Resources\n\nOpenStax: Nonprofit educational initiative providing free, peer-reviewed, openly licensed textbooks\nCoursera/edX: Platforms offering free access to university courses (some certificates may require payment)\nMIT OpenCourseWare: Web-based publication of virtually all MIT course content, freely available to anyone\nOpen Textbook Library: Collection of free, peer-reviewed, and openly-licensed textbooks",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Tools</span>"
     ]

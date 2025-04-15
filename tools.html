@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.42">
+<meta name="generator" content="quarto-1.6.43">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -37,7 +37,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-d4d76bf8491c20bad77d141916dc28e1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-a34d670291f06f286357e447776a572a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
@@ -69,6 +69,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -158,15 +187,29 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#data-management-sharing" id="toc-data-management-sharing" class="nav-link active" data-scroll-target="#data-management-sharing"><span class="header-section-number">3.1</span> Data Management &amp; Sharing</a></li>
+  <li><a href="#parkinsons-disease-specific-data-tools" id="toc-parkinsons-disease-specific-data-tools" class="nav-link" data-scroll-target="#parkinsons-disease-specific-data-tools"><span class="header-section-number">3.2</span> Parkinson’s Disease-Specific Data Tools</a></li>
+  <li><a href="#open-access-publishing" id="toc-open-access-publishing" class="nav-link" data-scroll-target="#open-access-publishing"><span class="header-section-number">3.3</span> Open Access Publishing</a></li>
+  <li><a href="#reporting-checklists" id="toc-reporting-checklists" class="nav-link" data-scroll-target="#reporting-checklists"><span class="header-section-number">3.4</span> Reporting Checklists</a></li>
+  <li><a href="#open-source-programming-languages" id="toc-open-source-programming-languages" class="nav-link" data-scroll-target="#open-source-programming-languages"><span class="header-section-number">3.5</span> Open-Source Programming Languages</a></li>
+  <li><a href="#version-control" id="toc-version-control" class="nav-link" data-scroll-target="#version-control"><span class="header-section-number">3.6</span> Version Control</a></li>
+  <li><a href="#reproducibility-tools" id="toc-reproducibility-tools" class="nav-link" data-scroll-target="#reproducibility-tools"><span class="header-section-number">3.7</span> Reproducibility Tools</a></li>
+  <li><a href="#collaboration-tools-and-platforms" id="toc-collaboration-tools-and-platforms" class="nav-link" data-scroll-target="#collaboration-tools-and-platforms"><span class="header-section-number">3.8</span> Collaboration Tools and Platforms</a></li>
+  <li><a href="#open-education-resources" id="toc-open-education-resources" class="nav-link" data-scroll-target="#open-education-resources"><span class="header-section-number">3.9</span> Open Education Resources</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Tools</span></h1>
+<h1 class="title"><span id="sec-tools" class="quarto-section-identifier"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Tools</span></span></h1>
 </div>
 
 
@@ -183,9 +226,104 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>tools for open science here.</p>
+<p>This chapter aims to provide readers with a comprehensive list of tools (e.g, software, websites, checklists) that facilitate the principles of open science (see <a href="principles.html" class="quarto-xref"><span>Chapter 1</span></a>). Our aim is to inspire discovery of new tools and awareness of options for researchers to explore when conducting open science projects in Parkinson’s disease.</p>
+<section id="data-management-sharing" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="data-management-sharing"><span class="header-section-number">3.1</span> Data Management &amp; Sharing</h2>
+<ul>
+<li><strong><a href="https://zenodo.org/">Zenodo</a></strong>: A CERN-backed repository that assigns DOIs to datasets, code, and other research outputs. Supports versioning and integration with GitHub.</li>
+<li><strong><a href="https://figshare.com/">Figshare</a></strong>: Platform for storing, sharing, and discovering research data with built-in metrics and DOI assignment.</li>
+<li><strong><a href="https://osf.io/">Open Science Framework (OSF)</a></strong>: All-in-one platform for project management, collaboration, and sharing of research materials with version control.</li>
+<li><strong><a href="https://data.mendeley.com/">Mendeley Data</a></strong>: Free and secure cloud-based communal repository where you can store your data, ensuring it is easy to share, access and cite.</li>
+<li><strong><a href="https://physionet.org/">PhysioNet</a></strong>: Repository of freely-available medical research data, managed by the MIT Laboratory for Computational Physiology.</li>
+<li><strong><a href="https://www.synapse.org/">Synapse</a></strong>: Collaborative compute space that allows scientists to share and analyze data</li>
+</ul>
+</section>
+<section id="parkinsons-disease-specific-data-tools" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="parkinsons-disease-specific-data-tools"><span class="header-section-number">3.2</span> Parkinson’s Disease-Specific Data Tools</h2>
+<ul>
+<li><strong><a href="https://doi.org/10.5281/zenodo.11167237">Getting Started with Parkinson’s Disease Data</a></strong>: living document that enables researchers to get started with AMP PD, PPMI, GP2, and Fox Insight data sets</li>
+<li><strong><a href="https://github.com/MJFF-ResearchCommunity/Useful-PPMI-Clinical-Codes/tree/main">Useful PPMI Clinical Codes</a></strong>: facilitates access to clinical data available in the Parkinson’s Progression Markers Initiative (PPMI) study</li>
+<li><strong><a href="https://github.com/MJFF-ResearchCommunity/PIE">Parkinson’s Insight Engine (PIE)</a></strong>: enables efficient data cleaning, feature engineering, and preparation for machine learning tasks using multi-modal data (clinical, imaging, biologic, genetic) while ensuring ease of use and reproducibility for PPMI and other MJFF data</li>
+</ul>
+</section>
+<section id="open-access-publishing" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="open-access-publishing"><span class="header-section-number">3.3</span> Open Access Publishing</h2>
+<ul>
+<li><strong><a href="https://arxiv.org/">arXiv</a></strong>: Preprint server primarily for physics, mathematics, and computer science papers.</li>
+<li><strong><a href="https://www.biorxiv.org/">bioRxiv</a></strong>: Preprint server primarily for papers in biology.</li>
+<li><strong><a href="https://www.medrxiv.org/">medRxiv</a></strong>: Preprint server for the health sciences</li>
+<li><strong><a href="https://www.researchsquare.com/">Research Square</a></strong>: multidisciplinary preprint and author services platform</li>
+<li>Open access journals</li>
+</ul>
+</section>
+<section id="reporting-checklists" class="level2" data-number="3.4">
+<h2 data-number="3.4" class="anchored" data-anchor-id="reporting-checklists"><span class="header-section-number">3.4</span> Reporting Checklists</h2>
+<ul>
+<li><strong><a href="https://www.equator-network.org/">Enhancing the QUAlity and Transparency Of health Research (EQUATOR)</a></strong>: many of these checklists are required for journal submission and can serve as a handy guide when preparing scientific publications (e.g., CONSORT, STROBE, PRISMA, etc.)</li>
+</ul>
+</section>
+<section id="open-source-programming-languages" class="level2" data-number="3.5">
+<h2 data-number="3.5" class="anchored" data-anchor-id="open-source-programming-languages"><span class="header-section-number">3.5</span> Open-Source Programming Languages</h2>
+<ul>
+<li><strong><a href="https://www.python.org/">Python</a></strong>: general-purpose programming language used in web development, data analysis, machine learning, and automation</li>
+<li><strong><a href="https://www.r-project.org/">R</a></strong>: a free software environment for statistical computing and graphics</li>
+</ul>
+</section>
+<section id="version-control" class="level2" data-number="3.6">
+<h2 data-number="3.6" class="anchored" data-anchor-id="version-control"><span class="header-section-number">3.6</span> Version Control</h2>
+<ul>
+<li><strong><a href="https://git-scm.com/docs/user-manual">Git</a></strong>: lightweight distributed version control system</li>
+<li><strong><a href="https://github.com/">GitHub</a></strong>: platform for hosting and collaborating on code built on <code>git</code></li>
+<li><strong><a href="https://about.gitlab.com/">GitLab</a></strong>: all-in-one DevOps platform built on <code>git</code></li>
+<li><strong><a href="https://bitbucket.org/product/">Bitbucket</a></strong>: code collaboration platform in the Atlassian ecosystem compatible with <code>git</code></li>
+</ul>
+</section>
+<section id="reproducibility-tools" class="level2" data-number="3.7">
+<h2 data-number="3.7" class="anchored" data-anchor-id="reproducibility-tools"><span class="header-section-number">3.7</span> Reproducibility Tools</h2>
+<ul>
+<li><strong><a href="https://jupyter.org/">Jupyter</a></strong>: Web application for creating and sharing documents with live code, equations, visualizations, and narrative text</li>
+<li><strong><a href="https://posit.co/download/rstudio-desktop/">RStudio</a></strong>: integrated development environment (IDE) with tools built to help you be more productive with R and Python</li>
+<li><strong><a href="https://rmarkdown.rstudio.com/">R Markdown</a></strong>: Framework for combining results and prose in reproducible documents across multiple programming languages</li>
+<li><strong><a href="https://quarto.org/">quarto</a></strong>: an open-source scientific and technical publishing system</li>
+<li><strong><a href="https://code.visualstudio.com/">Visual Studio Code</a></strong>: streamlined code editor</li>
+</ul>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Fun fact!
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This online book was developed and hosted with open source tools, including R/RStudio, quarto, git/GitHub, and Zenodo. Pretty cool!</p>
+</div>
+</div>
+</section>
+<section id="collaboration-tools-and-platforms" class="level2" data-number="3.8">
+<h2 data-number="3.8" class="anchored" data-anchor-id="collaboration-tools-and-platforms"><span class="header-section-number">3.8</span> Collaboration Tools and Platforms</h2>
+<ul>
+<li><strong><a href="https://www.overleaf.com/">Overleaf</a></strong>: Online <span class="math inline">\(\LaTeX\)</span> editor with real-time collaboration and version control features</li>
+<li><strong><a href="https://trello.com/home">Trello</a></strong>/<strong><a href="https://asana.com/?noredirect">Asana</a></strong>: Project management tools for organizing tasks, workflows, and collaborations (free for small teams)</li>
+<li><strong><a href="https://slack.com/">Slack</a></strong>: messaging and collaboration platform designed for teams and workplaces</li>
+<li><strong><a href="https://www.box.com/home">Box</a></strong>: share, edit, co-create content</li>
+<li><strong><a href="https://workspace.google.com/products/drive/">Google Drive</a></strong>: cloud storage for seamless file sharing and enhanced collaboration</li>
+<li><strong><a href="https://www.researchgate.net/">ResearchGate</a></strong>: social networking platform designed for researchers, scientists, and academics to share their work, collaborate, and stay updated on research developments</li>
+<li><strong><a href="https://pubpeer.com/">PubPeer</a></strong>: post-publication peer review forum</li>
+</ul>
+</section>
+<section id="open-education-resources" class="level2" data-number="3.9">
+<h2 data-number="3.9" class="anchored" data-anchor-id="open-education-resources"><span class="header-section-number">3.9</span> Open Education Resources</h2>
+<ul>
+<li><strong><a href="https://openstax.org/">OpenStax</a></strong>: Nonprofit educational initiative providing free, peer-reviewed, openly licensed textbooks</li>
+<li><strong><a href="https://www.coursera.org/">Coursera</a>/<a href="https://www.edx.org/">edX</a></strong>: Platforms offering free access to university courses (some certificates may require payment)</li>
+<li><strong><a href="https://ocw.mit.edu/">MIT OpenCourseWare</a></strong>: Web-based publication of virtually all MIT course content, freely available to anyone</li>
+<li><strong><a href="https://open.umn.edu/opentextbooks">Open Textbook Library</a></strong>: Collection of free, peer-reviewed, and openly-licensed textbooks</li>
+</ul>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
