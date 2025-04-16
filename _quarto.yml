@@ -10,6 +10,9 @@ book:
     - name: "Hirotaka Iwaki"
       email: "hirotaka@datatecnica.com"
       orcid: "0000-0002-8982-7885"
+    - name: "Jean-François Daneault"
+      email: "jf.daneault@rutgers.edu"
+      orcid: "0000-0002-8530-1827"
   date: today
   doi: "10.5281/zenodo.14984668"
   navbar:
