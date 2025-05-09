@@ -1,3 +1,54 @@
-# Examples
+# Examples {#sec-examples}
 
-examples of open science here.
+Open science projects are transparent, accessible, and collaborative (see @sec-principles). Below lists examples of Parkinson's disease research projects that practice open science principles.
+
+## European Parkinson's Genome-wide Assocition Study (GWAS) Meta-analysis
+**Authors**: The Global Parkinson's Genetics Program (GP2), Hampton L. Leonard
+
+**Brief summary**: largest investigation of Parkinson's disease genetic risk to date
+
+* [Preprint](https://www.medrxiv.org/content/10.1101/2025.03.14.24319455v1)
+* [GitHub Repository](https://github.com/GP2code/GP2-EUR-metaGWAS)
+* [Blog Post](https://www.datatecnica.com/blog/new-parkinsons-meta-gwas-of-over-18m-samples)
+* [Data (summary statistics)](https://ndkp.hugeamp.org/research.html?pageid=a2f_downloads_280)
+
+## Accelerating Medicines Partnership--Parkinson’s Disease (AMP-PD)
+**Authors**: Accelerating Medicines Partnership (AMP) Program
+
+**Brief summary**: public-private partnership between the National Institutes of Health (NIH), multiple biopharmaceutical and life sciences companies, and non-profit organizations. Clinical, whole genome, and transcriptomics data available from harmonized datasets.
+
+* [AMP-PD portal](https://amp-pd.org/)
+
+## Fox Insight 
+**Authors**: The Michael J. Fox Foundation
+
+**Brief summary**: online clinical study including both cross-sectional and longitudinal surveys. Genetic data (genotyping) and microbiome data (stool & saliva) available from a subsample of participants.
+
+* [Fox DEN](https://foxden.michaeljfox.org/insight/explore/insight.jsp) - data exploration network for the Fox Insight study that provides investigators with a tool to explore, download, and apply statistical models on aggregated data collected for the Fox Insight online clinical study. Also contains recent publications, documentation, and study resources.
+
+## Parkinson's Progression Markers Initiative (PPMI)
+**Authors**: The Michael J. Fox Foundation
+
+**Brief summary**: A large-scale, longitudinal study to identify biomarkers of Parkinson’s disease. Qualified researchers may obtain access to clinical, imaging, ‘omics, genetic, sensor, and biomarker data.
+
+* [PPMI landing page](https://www.ppmi-info.org/)
+
+## The Parkinson’s Disease Biomarkers Program (PDBP)
+**Authors**: National Institute of Neurological Disorders and Stroke (NINDS)
+
+**Brief summary**: A project led by NIH/NINDS to discover and validate Parkinson’s biomarkers. Provides access to standardized biomarker data and biospecimens.
+
+* [PDBP](https://pdbp.ninds.nih.gov/)
+
+## OpenNeuro
+**Authors**: Stanford Center for Reproducible Neuroscience
+
+**Brief summary**: A free and open platform for validating and sharing BIDS-compliant MRI, PET, MEG, EEG, and iEEG data.
+
+* [OpenNeuro.org](https://openneuro.org/)
+
+::: {.callout-note}
+
+Do you have an example of a Parkinson's disease research project that practices open science? Submit an issue [here](https://github.com/MJFF-ResearchCommunity/open-science-guide/issues) and we'll be sure to add it to this chapter!
+
+:::
