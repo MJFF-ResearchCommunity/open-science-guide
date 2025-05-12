@@ -224,7 +224,67 @@
     "href": "examples.html",
     "title": "4  Examples",
     "section": "",
-    "text": "examples of open science here.",
+    "text": "4.1 European Parkinson’s Genome-wide Assocition Study (GWAS) Meta-analysis\nOpen science projects are transparent, accessible, and collaborative (see Chapter 1). Below lists examples of Parkinson’s disease research projects that practice open science principles.\nAuthors: The Global Parkinson’s Genetics Program (GP2), Hampton L. Leonard\nBrief summary: largest investigation of Parkinson’s disease genetic risk to date",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Examples</span>"
+    ]
+  },
+  {
+    "objectID": "examples.html#european-parkinsons-genome-wide-assocition-study-gwas-meta-analysis",
+    "href": "examples.html#european-parkinsons-genome-wide-assocition-study-gwas-meta-analysis",
+    "title": "4  Examples",
+    "section": "",
+    "text": "Preprint\nGitHub Repository\nBlog Post\nData (summary statistics)",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Examples</span>"
+    ]
+  },
+  {
+    "objectID": "examples.html#accelerating-medicines-partnershipparkinsons-disease-amp-pd",
+    "href": "examples.html#accelerating-medicines-partnershipparkinsons-disease-amp-pd",
+    "title": "4  Examples",
+    "section": "4.2 Accelerating Medicines Partnership–Parkinson’s Disease (AMP-PD)",
+    "text": "4.2 Accelerating Medicines Partnership–Parkinson’s Disease (AMP-PD)\nAuthors: Accelerating Medicines Partnership (AMP) Program\nBrief summary: public-private partnership between the National Institutes of Health (NIH), multiple biopharmaceutical and life sciences companies, and non-profit organizations. Clinical, whole genome, and transcriptomics data available from harmonized datasets.\n\nAMP-PD portal",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Examples</span>"
+    ]
+  },
+  {
+    "objectID": "examples.html#fox-insight",
+    "href": "examples.html#fox-insight",
+    "title": "4  Examples",
+    "section": "4.3 Fox Insight",
+    "text": "4.3 Fox Insight\nAuthors: The Michael J. Fox Foundation\nBrief summary: online clinical study including both cross-sectional and longitudinal surveys. Genetic data (genotyping) and microbiome data (stool & saliva) available from a subsample of participants.\n\nFox DEN - data exploration network for the Fox Insight study that provides investigators with a tool to explore, download, and apply statistical models on aggregated data collected for the Fox Insight online clinical study. Also contains recent publications, documentation, and study resources.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Examples</span>"
+    ]
+  },
+  {
+    "objectID": "examples.html#parkinsons-progression-markers-initiative-ppmi",
+    "href": "examples.html#parkinsons-progression-markers-initiative-ppmi",
+    "title": "4  Examples",
+    "section": "4.4 Parkinson’s Progression Markers Initiative (PPMI)",
+    "text": "4.4 Parkinson’s Progression Markers Initiative (PPMI)\nAuthors: The Michael J. Fox Foundation\nBrief summary: A large-scale, longitudinal study to identify biomarkers of Parkinson’s disease. Qualified researchers may obtain access to clinical, imaging, ’omics, genetic, sensor, and biomarker data.\n\nPPMI landing page",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Examples</span>"
+    ]
+  },
+  {
+    "objectID": "examples.html#the-parkinsons-disease-biomarkers-program-pdbp",
+    "href": "examples.html#the-parkinsons-disease-biomarkers-program-pdbp",
+    "title": "4  Examples",
+    "section": "4.5 The Parkinson’s Disease Biomarkers Program (PDBP)",
+    "text": "4.5 The Parkinson’s Disease Biomarkers Program (PDBP)\nAuthors: National Institute of Neurological Disorders and Stroke (NINDS)\nBrief summary: A project led by NIH/NINDS to discover and validate Parkinson’s biomarkers. Provides access to standardized biomarker data and biospecimens.\n\nPDBP",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Examples</span>"
+    ]
+  },
+  {
+    "objectID": "examples.html#openneuro",
+    "href": "examples.html#openneuro",
+    "title": "4  Examples",
+    "section": "4.6 OpenNeuro",
+    "text": "4.6 OpenNeuro\nAuthors: Stanford Center for Reproducible Neuroscience\nBrief summary: A free and open platform for validating and sharing BIDS-compliant MRI, PET, MEG, EEG, and iEEG data.\n\nOpenNeuro.org\n\n\n\n\n\n\n\nNote\n\n\n\nDo you have an example of a Parkinson’s disease research project that practices open science? Submit an issue here and we’ll be sure to add it to this chapter!",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Examples</span>"
     ]
