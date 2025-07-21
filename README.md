@@ -4,13 +4,9 @@
 
 **A practical guide to advancing open science in Parkinson’s disease research — principles, considerations, tools, and community best practices.**
 
-------------------------------------------------------------------------
-
 ## 📖 Read the Guide
 
 👉 [**Open Science Guide for Parkinson’s Research**](https://mjff-researchcommunity.github.io/open-science-guide/)
-
-------------------------------------------------------------------------
 
 ## Why This Guide?
 
@@ -22,8 +18,6 @@ This guide helps researchers:
 -   ✅ Consider ethical and practical issues
 -   ✅ Adopt tools and platforms that promote transparency and collaboration
 -   ✅ Learn from real-world examples and community practices
-
-------------------------------------------------------------------------
 
 ## How You Can Use or Contribute
 
@@ -37,14 +31,11 @@ Please cite the guide when using or sharing:
 
 > Kmiecik, M. J., Iwaki, H., & Daneault, J.-F. (2025). Open Science Guide for Parkinson's Research. *Zenodo*. https://doi.org/10.5281/zenodo.14984669
 
-------------------------------------------------------------------------
-
 ## Join the Conversation
 
 Have feedback? Want to connect with other open science practitioners in PD research?\
 📬 [**Start a Discussion**](https://rcop.michaeljfox.org/)
 
-------------------------------------------------------------------------
 
 ## License
 
