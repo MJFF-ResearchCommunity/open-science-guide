@@ -1,6 +1,26 @@
+## License Summary  
+
+The contents of this repository are licensed under the following terms:  
+
+- 📖 **Documentation, text, and educational materials** are licensed under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**.  
+  You are free to share and adapt with attribution.  
+  See: https://creativecommons.org/licenses/by/4.0/  
+
+- 💻 **Code, scripts, and software components** are licensed under the **MIT License**.  
+  You are free to use, modify, and distribute the code with attribution.  
+  See full text below.  
+
+---
+
+## MIT License for Code  
+
+Copyright (c) 2025 [Your Name or Organization]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction...
+
 MIT License
 
-Copyright (c) 2024 Michael J. Fox Foundation Research Community
+Copyright (c) 2025 Michael J. Fox Foundation Research Community
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +39,15 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+https://opensource.org/licenses/MIT  
+
+---
+
+## Creative Commons Attribution 4.0 International License  
+
+This documentation is licensed under the Creative Commons Attribution 4.0 International License.  
+To view a copy of this license, visit:  
+https://creativecommons.org/licenses/by/4.0/  
+
+© 2025 Michael J. Fox Foundation Research Community
