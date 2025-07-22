@@ -13,7 +13,7 @@ This chapter aims to provide readers with a comprehensive list of tools (e.g, so
 
 ## Parkinson's Disease-Specific Data Tools
 
-* **[Getting Started with Parkinson's Disease Data](https://doi.org/10.5281/zenodo.11167237)**: living document that enables researchers to get started with AMP PD, PPMI, GP2, and Fox Insight data sets
+* **[Getting Started with Parkinson's Disease Data](https://doi.org/10.5281/zenodo.11167237)**: living document that enables researchers to get started with AMP PD, PPMI, GP2, and Fox Insight data sets (a webinar is available [here](https://zenodo.org/records/15396629))
 * **[Useful PPMI Clinical Codes](https://github.com/MJFF-ResearchCommunity/Useful-PPMI-Clinical-Codes/tree/main)**: facilitates access to clinical data available in the Parkinson's Progression Markers Initiative (PPMI) study
 * **[Parkinson’s Insight Engine (PIE)](https://github.com/MJFF-ResearchCommunity/PIE)**: enables efficient data cleaning, feature engineering, and preparation for machine learning tasks using multi-modal data (clinical, imaging, biologic, genetic) while ensuring ease of use and reproducibility for PPMI and other MJFF data
 

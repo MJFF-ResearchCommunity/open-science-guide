@@ -1,6 +1,6 @@
 # Preface {.unnumbered}
 
-Welcome to the Open Science Guide for Parkinson's disease research! 
+Welcome to the Open Science Guide for Parkinson's Research! 
 
 This is an online book written with the following aims:
 
@@ -8,6 +8,8 @@ This is an online book written with the following aims:
 * provide ideas, resources, and examples to facilitate open and reproducible science
 
 This online book was written as a high-level, easily readable, and accessible guide for Parkinson's disease researchers across all levels of expertise, but we hope that it's useful for others as well.
+
+Open science is an immensely vast topic and our intention is not to be a comprehensive guide, but rather a primer for high-level topics and a pointer for resources. In this spirit, readers looking for a more formal and comprehensive guide to Open Science are encouraged to visit [The Turing Way](https://book.the-turing-way.org/), a handbook to reproducible, ethical, and collaborative data science.
 
 # Interested in contributing? 
 
@@ -21,7 +23,7 @@ Feel free to contribute if you find a section with missing, incomplete, or incor
 
 3. Clone our GitHub [repo](https://github.com/MJFF-ResearchCommunity/open-science-guide), create a branch, modify documents, and submit a pull request
 
-# Step-by-step to contribute on Github
+## Step-by-step to contribute on Github
 
 1. **Fork the repository**:  
    - Go to the GitHub page of the repository you want to contribute to.  

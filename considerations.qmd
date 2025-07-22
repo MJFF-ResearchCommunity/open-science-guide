@@ -10,7 +10,6 @@ For an example, the [INCF](https://incf.org/) is employing FAIR Data Principles 
 
 Careful consideration should be given to participants' privacy when developing procedures (e.g., consent) for sharing data [@dennisPrivacyOpenScience2019].
 
-
 ### Where to share your data
 
 - [Zenodo](https://zenodo.org/)  
@@ -28,8 +27,11 @@ While open science promotes transparency, some data must remain private:
 - **Sensitive datasets**: Use controlled-access repositories when needed.  
 - **Anonymization**: If sharing is restricted, remove identifiable details or aggregate data.  
 
+## Programming
 
-## Project Folder Structure
+For a general resource on programming practices geared toward open science, visit Russell Poldrack's webbook [Better Code, Better Science](https://poldrack.github.io/BetterCodeBetterScience/frontmatter.html).
+
+### Project Folder Structure
 
 A well-structured project is **transparent, reproducible, and reusable**. A clear and consistent folder structure makes collaboration easier and ensures reproducibility. Here’s a basic template for a data science project: 
 
@@ -48,11 +50,9 @@ For best practices in structuring projects, consider these templates:
 - [Small Project Template](https://github.com/MJFF-ResearchCommunity/small-analysis-project-template)  
 - [Cookiecutter Data Science](https://drivendata.github.io/cookiecutter-data-science/)
 
-
-## Code Accessibility & Version Control
+### Version Control
 
 Using version control (e.g., [Git](https://git-scm.com/docs/user-manual)) ensures **traceability, collaboration, and reproducibility**. 
-
 A public repository allows easy access and contributions. Here are places where you can store your version-controlled code publicly:
 
 - [GitHub](https://github.com/)
