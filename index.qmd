@@ -9,6 +9,10 @@ This is an online book written with the following aims:
 
 This online book was written as a high-level, easily readable, and accessible guide for Parkinson's disease researchers across all levels of expertise, but we hope that it's useful for others as well.
 
+::: {.callout-note}
+For a comprehensive overview of the webbook, we have a [webinar](https://zenodo.org/records/16813426) that covers all chapters and how to contribute [@kmiecikMJFFDataCommunity2025]. Slides for the webinar are available [here](images/osg-slides.pdf).
+:::
+
 Open science is an immensely vast topic and our intention is not to be a comprehensive guide, but rather a primer for high-level topics and a pointer for resources. In this spirit, readers looking for a more formal and comprehensive guide to Open Science are encouraged to visit [The Turing Way](https://book.the-turing-way.org/), a handbook to reproducible, ethical, and collaborative data science.
 
 # Interested in contributing? 

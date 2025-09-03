@@ -33,6 +33,6 @@ Open Science aligns with ethical principles by promoting fairness, accountabilit
 
 ## Summary
 
-Open Science is an umbrella term that encompasses many components of how scientific knowledge is shared, accessed, and developed. Following Open Science principles has pontential benefits to accelerating scientific innovation, increasing trust, and benefiting the common good. 
+Open Science is an umbrella term that encompasses many components of how scientific knowledge is shared, accessed, and developed. Following Open Science principles has potential benefits to accelerating scientific innovation, increasing trust, and benefiting the common good. 
 
 The following chapters will list tools and resources that accomplish various goals of Open Science with a particular emphasis on the science of Parkinson's disease.
