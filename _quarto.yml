@@ -15,6 +15,8 @@ book:
       orcid: "0000-0002-8530-1827"
   date: today
   doi: "10.5281/zenodo.14984668"
+  repo-url: https://github.com/MJFF-ResearchCommunity/open-science-guide
+  repo-actions: [edit, issue]
   navbar:
     left: 
       - icon: github
