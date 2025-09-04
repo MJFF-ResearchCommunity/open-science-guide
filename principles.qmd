@@ -13,7 +13,7 @@ This is a large and ongoing area of investigation that we cannot hope to cover i
 
 Investigators can approach Open Science in a layered, gradient approach with increasing levels of transparency and accessibility [@bowmanLayeredFrameworkConsidering2018]:
 
-![Figure 1.1. Layered framework for open science practices. Reproduced from Bowman, N. D., & Keene, J. R. (2018). A Layered Framework for Considering Open Science Practices. Communication Research Reports, 35(4), 363–372. https://doi.org/10.1080/08824096.2018.1513273 ](images/bowman-keene-2018.png)
+![Figure 1.1. Layered framework for open science practices. Reproduced from Bowman, N. D., & Keene, J. R. (2018). A Layered Framework for Considering Open Science Practices. Communication Research Reports, 35(4), 363–372. https://doi.org/10.1080/08824096.2018.1513273 ](images/bowman-keene-2018-v2.png)
 
 ## Importance
 
