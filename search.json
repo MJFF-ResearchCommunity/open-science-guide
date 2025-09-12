@@ -194,7 +194,7 @@
     "href": "tools.html#reproducibility-tools",
     "title": "3  Tools",
     "section": "3.7 Reproducibility Tools",
-    "text": "3.7 Reproducibility Tools\n\nJupyter: Web application for creating and sharing documents with live code, equations, visualizations, and narrative text\nRStudio: integrated development environment (IDE) with tools built to help you be more productive with R and Python\nR Markdown: Framework for combining results and prose in reproducible documents across multiple programming languages\nquarto: an open-source scientific and technical publishing system\nVisual Studio Code: streamlined code editor\n\n\n\n\n\n\n\nFun fact!\n\n\n\nThis online book was developed and hosted with open source tools, including R/RStudio, quarto, git/GitHub, and Zenodo. Pretty cool!",
+    "text": "3.7 Reproducibility Tools\n\nJupyter: Web application for creating and sharing documents with live code, equations, visualizations, and narrative text\nRStudio: integrated development environment (IDE) with tools built to help you be more productive with R and Python\nR Markdown: Framework for combining results and prose in reproducible documents across multiple programming languages\nquarto: an open-source scientific and technical publishing system\nVisual Studio Code: streamlined code editor\n\n\n\n\n\n\n\nTipFun fact!\n\n\n\nThis online book was developed and hosted with open source tools, including R/RStudio, quarto, git/GitHub, and Zenodo. Pretty cool!",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Tools</span>"
     ]
