@@ -1,6 +1,7 @@
 # Open Science Guide for Parkinson’s Research
 
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/) [![License: MIT](https://img.shields.io/badge/Code%20License-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![Quarto Build](https://img.shields.io/badge/Quarto-Published-blue)](https://mjff-researchcommunity.github.io/open-science-guide/) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14984669.svg)](https://doi.org/10.5281/zenodo.14984669) [![pages-build-deployment](https://github.com/MJFF-ResearchCommunity/open-science-guide/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages)](https://github.com/MJFF-ResearchCommunity/open-science-guide/actions/workflows/pages/pages-build-deployment)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/) [![License: MIT](https://img.shields.io/badge/Code%20License-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![Quarto Build](https://img.shields.io/badge/Quarto-Published-blue)](https://mjff-researchcommunity.github.io/open-science-guide/) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17064728.svg)](https://doi.org/10.5281/zenodo.17064728)
+[![pages-build-deployment](https://github.com/MJFF-ResearchCommunity/open-science-guide/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages)](https://github.com/MJFF-ResearchCommunity/open-science-guide/actions/workflows/pages/pages-build-deployment)
 
 **A practical guide to advancing open science in Parkinson’s disease research — principles, considerations, tools, and community best practices.**
 
@@ -29,7 +30,7 @@ We welcome feedback and community contributions! For detailed instructions on co
 
 Please cite the guide when using or sharing:
 
-> Kmiecik, M. J., Iwaki, H., & Daneault, J.-F. (2025). Open Science Guide for Parkinson's Research. *Zenodo*. https://doi.org/10.5281/zenodo.14984669
+> Kmiecik, M. J., Iwaki, H., & Daneault, J.-F. (2025). Open Science Guide for Parkinson's Research. *Zenodo*. https://doi.org/10.5281/zenodo.17064728
 
 ## Join the Conversation
 

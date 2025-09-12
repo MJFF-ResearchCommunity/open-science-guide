@@ -1,0 +1,39 @@
+# Citation File Format (CFF) for Open Science Guide for Parkinson's Research
+# Place this file in the root of your GitHub repository as CITATION.cff
+
+cff-version: 1.2.0
+message: "If you use this guide, please cite it as below."
+type: software
+title: "Open Science Guide for Parkinson's Research"
+abstract: "An online book written to help educate on principles of open science and provide ideas, resources, and examples to facilitate open and reproducible science. This guide was written as a high-level, easily readable, and accessible guide for Parkinson's disease researchers across all levels of expertise."
+version: "1.0.0"  # This will be overridden by GitHub release version
+date-released: "2025-09-02"  # Update with your actual release date
+url: "https://mjff-researchcommunity.github.io/open-science-guide/"
+repository-code: "https://github.com/MJFF-ResearchCommunity/open-science-guide"
+
+authors:
+  - family-names: "Kmiecik"
+    given-names: "Matthew J."
+    orcid: "https://orcid.org/0000-0001-5340-3872" 
+    affiliation: "23andMe"
+  - family-names: "Iwaki"
+    given-names: "Hirotaka"
+    orcid: "https://orcid.org/0000-0002-8982-7885"
+  - family-names: "Daneault"
+    given-names: "Jean-François"
+    orcid: "https://orcid.org/0000-0002-8530-1827"
+    affiliation: "Rutgers University"
+
+keywords:
+  - "open science"
+  - "Parkinson's disease"
+  - "reproducible research"
+  - "research guide"
+  - "transparency"
+  - "data sharing"
+  - "methodology"
+
+# Primary license for the documentation content
+license: "CC-BY-4.0"
+license-url: "https://github.com/MJFF-ResearchCommunity/open-science-guide/blob/main/LICENSE"
+
