@@ -214,7 +214,10 @@ div.csl-indent {
   <li><a href="#what-to-pre-register" id="toc-what-to-pre-register" class="nav-link" data-scroll-target="#what-to-pre-register"><span class="header-section-number">2.4.1</span> What to pre-register</a></li>
   <li><a href="#where-to-pre-register" id="toc-where-to-pre-register" class="nav-link" data-scroll-target="#where-to-pre-register"><span class="header-section-number">2.4.2</span> Where to pre-register</a></li>
   </ul></li>
-  <li><a href="#making-projects-citeable" id="toc-making-projects-citeable" class="nav-link" data-scroll-target="#making-projects-citeable"><span class="header-section-number">2.5</span> Making Projects Citeable</a></li>
+  <li><a href="#making-projects-citeable" id="toc-making-projects-citeable" class="nav-link" data-scroll-target="#making-projects-citeable"><span class="header-section-number">2.5</span> Making Projects Citeable</a>
+  <ul class="collapse">
+  <li><a href="#a-few-notes-on-github-zenodo-integration" id="toc-a-few-notes-on-github-zenodo-integration" class="nav-link" data-scroll-target="#a-few-notes-on-github-zenodo-integration"><span class="header-section-number">2.5.1</span> A few notes on GitHub → Zenodo integration</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/MJFF-ResearchCommunity/open-science-guide/edit/main/considerations.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/MJFF-ResearchCommunity/open-science-guide/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -373,7 +376,7 @@ div.csl-indent {
 <section id="making-projects-citeable" class="level2" data-number="2.5">
 <h2 data-number="2.5" class="anchored" data-anchor-id="making-projects-citeable"><span class="header-section-number">2.5</span> Making Projects Citeable</h2>
 <p>We recommend establishing or creating a Digital Object Identifier (DOI) to enable researchers and the public to easily cite and access your work. A DOI is a permanent, unique identifier assigned to digital objects such as research papers, datasets, software, and code repositories. It provides a stable and citable link to the content, even if the location (URL) changes.</p>
-<p>For example, a DOI link will look like this: <a href="https://doi.org/10.5281/zenodo.14984668">https://doi.org/10.5281/zenodo.14984668</a> with <strong>10.5281/zenodo.14984668</strong> representing the DOI. It will always resolve to the same location.</p>
+<p>For example, a DOI link will look like this: <a href="https://doi.org/10.5281/zenodo.17108875">https://doi.org/10.5281/zenodo.17108875</a> with <strong>10.5281/zenodo.17108875</strong> representing the DOI. It will always resolve to the same location.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -384,7 +387,7 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Note that <a href="https://doi.org/10.5281/zenodo.14984668">10.5281/zenodo.14984668</a> is in fact the DOI for this online book! Fun fact, with new pushes to the GitHub repository that hosts this book, Zenodo will automatically keep track of updates, while the DOI will always resolve to the latest version.</p>
+<p>Note that <a href="https://doi.org/10.5281/zenodo.17108875">10.5281/zenodo.17108875</a> is in fact the DOI for this online book! Fun fact, with new pushes to the GitHub repository that hosts this book, Zenodo will automatically keep track of updates, while the DOI will always resolve to the latest version.</p>
 </div>
 </div>
 <p>Here are some recommended places to create a DOI depending on where your Open Science project lives:</p>
@@ -392,6 +395,24 @@ Note
 <li>For a GitHub repository → <a href="https://zenodo.org/">Zenodo</a> (automatic DOI for software releases).</li>
 <li>For datasets → <a href="https://figshare.com/">Figshare</a>, <a href="https://datadryad.org/">Dryad</a>, or <a href="https://zenodo.org/">Zenodo</a>.</li>
 <li>For a general research project → <a href="https://osf.io/">OSF</a>.</li>
+</ul>
+<p>We recommend the following guides for creating DOIs:</p>
+<ul>
+<li>Creating DOIs for Open Science Framework (OSF) projects (<a href="https://help.osf.io/article/220-create-dois">guide</a>)</li>
+<li>Creating DOIs in Zenodo (<a href="https://help.zenodo.org/docs/deposit/describe-records/reserve-doi/">guide</a>)</li>
+<li>Creating DOIs for GitHub repositories using Zenodo (<a href="https://coderefinery.github.io/github-without-command-line/doi/">guide</a>)</li>
+</ul>
+<section id="a-few-notes-on-github-zenodo-integration" class="level3" data-number="2.5.1">
+<h3 data-number="2.5.1" class="anchored" data-anchor-id="a-few-notes-on-github-zenodo-integration"><span class="header-section-number">2.5.1</span> A few notes on GitHub → Zenodo integration</h3>
+<p>We recommend including a <code>CITATION.cff</code> file in your GitHub repository to enhance the integration between GitHub and Zenodo, as well as clearly specify citation information. This file will help Zenodo fill in metadata from your repository so that the record is accurate. Otherwise, content may be inaccurate or not intended (e.g., your GitHub username “ebenes” might be used as the author name instead of the intended “Elaine Benes”).</p>
+<p>The <code>CITATION.cff</code> file for this repository can be viewed <a href="https://github.com/MJFF-ResearchCommunity/open-science-guide/blob/main/CITATION.cff">here</a> and we recommend reading the following <a href="https://citation-file-format.github.io/">guide</a> for more information.</p>
+<p><strong>Can I create a DOI on Zenodo manually and then connect my GitHub repository to it?</strong></p>
+<ul>
+<li>No.&nbsp;After a DOI is created on Zenodo, you can include a link to your GitHub repository; however, new releases and code updates to your repository will not show on the Zenodo record as separate versions.</li>
+</ul>
+<p><strong>My research project already has a DOI using Zenodo, but I’d like to replace it with my GitHub repository using the GitHub → Zenodo integration. Do I need to create a new DOI?</strong></p>
+<ul>
+<li>Yes. Having multiple DOIs for the same project may cause confusion, so one method to “link” the DOIs is to use the “Related Works” section within the Zenodo record. This will clarify the relationship between different DOIs from the same project. For example, the <em>Open Science Guide for Parkinson’s Research</em> initially had a DOI created manually using Zenodo (<a href="https://doi.org/10.5281/zenodo.14984669">here</a>). This record now “Is obsoleted by” <a href="https://doi.org/10.5281/zenodo.17108875">the GitHub repo DOI</a> in the “Related Works” section. There are multiple relationship types to choose from. Pick the one that best represents your particular situation!</li>
 </ul>
 
 
@@ -403,6 +424,7 @@ Dennis, Simon, Paul Garrett, Hyungwook Yim, Jihun Hamm, Adam F. Osth, Vishnu Sre
 Wilkinson, Mark D., Michel Dumontier, IJsbrand Jan Aalbersberg, Gabrielle Appleton, Myles Axton, Arie Baak, Niklas Blomberg, et al. 2016. <span>“The <span>FAIR Guiding Principles</span> for Scientific Data Management and Stewardship.”</span> <em>Scientific Data</em> 3 (1): 160018. <a href="https://doi.org/10.1038/sdata.2016.18">https://doi.org/10.1038/sdata.2016.18</a>.
 </div>
 </div>
+</section>
 </section>
 
 </main> <!-- /main -->
