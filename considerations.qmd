@@ -112,10 +112,10 @@ Pre-registration strengthens research integrity by documenting hypotheses and me
 
 We recommend establishing or creating a Digital Object Identifier (DOI) to enable researchers and the public to easily cite and access your work. A DOI is a permanent, unique identifier assigned to digital objects such as research papers, datasets, software, and code repositories. It provides a stable and citable link to the content, even if the location (URL) changes.
 
-For example, a DOI link will look like this: [https://doi.org/10.5281/zenodo.14984668](https://doi.org/10.5281/zenodo.14984668) with **10.5281/zenodo.14984668** representing the DOI. It will always resolve to the same location.
+For example, a DOI link will look like this: [https://doi.org/10.5281/zenodo.17108875](https://doi.org/10.5281/zenodo.17108875) with **10.5281/zenodo.17108875** representing the DOI. It will always resolve to the same location.
 
 ::: {.callout-note}
-Note that [10.5281/zenodo.14984668](https://doi.org/10.5281/zenodo.14984668) is in fact the DOI for this online book! Fun fact, with new pushes to the GitHub repository that hosts this book, Zenodo will automatically keep track of updates, while the DOI will always resolve to the latest version.
+Note that [10.5281/zenodo.17108875](https://doi.org/10.5281/zenodo.17108875) is in fact the DOI for this online book! Fun fact, with new pushes to the GitHub repository that hosts this book, Zenodo will automatically keep track of updates, while the DOI will always resolve to the latest version.
 :::
 
 Here are some recommended places to create a DOI depending on where your Open Science project lives:
@@ -123,4 +123,24 @@ Here are some recommended places to create a DOI depending on where your Open Sc
 * For a GitHub repository → [Zenodo](https://zenodo.org/) (automatic DOI for software releases).
 * For datasets → [Figshare](https://figshare.com/), [Dryad](https://datadryad.org/), or [Zenodo](https://zenodo.org/).
 * For a general research project → [OSF](https://osf.io/).
+
+We recommend the following guides for creating DOIs:
+
+* Creating DOIs for Open Science Framework (OSF) projects ([guide](https://help.osf.io/article/220-create-dois))
+* Creating DOIs in Zenodo ([guide](https://help.zenodo.org/docs/deposit/describe-records/reserve-doi/))
+* Creating DOIs for GitHub repositories using Zenodo ([guide](https://coderefinery.github.io/github-without-command-line/doi/))
+
+### A few notes on GitHub → Zenodo integration
+
+We recommend including a `CITATION.cff` file in your GitHub repository to enhance the integration between GitHub and Zenodo, as well as clearly specify citation information. This file will help Zenodo fill in metadata from your repository so that the record is accurate. Otherwise, content may be inaccurate or not intended (e.g., your GitHub username "ebenes" might be used as the author name instead of the intended "Elaine Benes"). 
+
+The `CITATION.cff` file for this repository can be viewed [here](https://github.com/MJFF-ResearchCommunity/open-science-guide/blob/main/CITATION.cff) and we recommend reading the following [guide](https://citation-file-format.github.io/) for more information.
+
+**Can I create a DOI on Zenodo manually and then connect my GitHub repository to it?** 
+
+* No. After a DOI is created on Zenodo, you can include a link to your GitHub repository; however, new releases and code updates to your repository will not show on the Zenodo record as separate versions.
+
+**My research project already has a DOI using Zenodo, but I'd like to replace it with my GitHub repository using the GitHub → Zenodo integration. Do I need to create a new DOI?**
+
+* Yes. Having multiple DOIs for the same project may cause confusion, so one method to "link" the DOIs is to use the "Related Works" section within the Zenodo record. This will clarify the relationship between different DOIs from the same project. For example, the _Open Science Guide for Parkinson's Research_ initially had a DOI created manually using Zenodo ([here](https://doi.org/10.5281/zenodo.14984669)). This record now "Is obsoleted by" [the GitHub repo DOI](https://doi.org/10.5281/zenodo.17108875) in the "Related Works" section. There are multiple relationship types to choose from. Pick the one that best represents your particular situation!
 
