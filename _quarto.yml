@@ -14,7 +14,7 @@ book:
       email: "jf.daneault@rutgers.edu"
       orcid: "0000-0002-8530-1827"
   date: today
-  doi: "10.5281/zenodo.14984668"
+  doi: "10.5281/zenodo.17108875"
   repo-url: https://github.com/MJFF-ResearchCommunity/open-science-guide
   repo-actions: [edit, issue]
   navbar:
