@@ -1,8 +1,17 @@
 # Examples {#sec-examples}
 
-Open science projects are transparent, accessible, and collaborative (see @sec-principles). Below lists examples of Parkinson's disease research projects that practice open science principles.
+Open science projects are transparent, accessible, and collaborative (see @sec-principles). Below lists examples within Parkinson's disease research that practice open science principles.
 
-## European Parkinson's Genome-wide Assocition Study (GWAS) Meta-analysis
+This chapter is categorizes examples into three main sections: organizational policies; individual projects; research programs and initiatives.
+
+## Organizational Policies
+
+* [The Michael J Fox Foundation Open Science Policy Handbook](https://doi.org/10.5281/zenodo.18778011) -  open science policy for all research that is funded by MJFF as of 15 March 2026.
+* [Aligning Science Across Parkinson's (ASAP) Open Science Policy Handbook](https://doi.org/10.5281/zenodo.13769765) - official ASAP Open Science Policy for grantees in the Collaborative Research Network (CRN)
+
+## Individual Projects
+
+### European Parkinson's Genome-wide Assocition Study (GWAS) Meta-analysis
 **Authors**: The Global Parkinson's Genetics Program (GP2), Hampton L. Leonard
 
 **Brief summary**: largest investigation of Parkinson's disease genetic risk to date
@@ -12,36 +21,38 @@ Open science projects are transparent, accessible, and collaborative (see @sec-p
 * [Blog Post](https://www.datatecnica.com/blog/new-parkinsons-meta-gwas-of-over-18m-samples)
 * [Data (summary statistics)](https://ndkp.hugeamp.org/research.html?pageid=a2f_downloads_280)
 
-## Accelerating Medicines Partnership--Parkinson’s Disease (AMP-PD)
-**Authors**: Accelerating Medicines Partnership (AMP) Program
+## Research Programs & Initiatives
+
+### Accelerating Medicines Partnership--Parkinson’s Disease (AMP-PD)
+**Led by**: Accelerating Medicines Partnership (AMP) Program
 
 **Brief summary**: public-private partnership between the National Institutes of Health (NIH), multiple biopharmaceutical and life sciences companies, and non-profit organizations. Clinical, whole genome, and transcriptomics data available from harmonized datasets.
 
 * [AMP-PD portal](https://amp-pd.org/)
 
-## Fox Insight 
-**Authors**: The Michael J. Fox Foundation
+### Fox Insight 
+**Led by**: The Michael J. Fox Foundation
 
 **Brief summary**: online clinical study including both cross-sectional and longitudinal surveys. Genetic data (genotyping) and microbiome data (stool & saliva) available from a subsample of participants.
 
 * [Fox DEN](https://foxden.michaeljfox.org/insight/explore/insight.jsp) - data exploration network for the Fox Insight study that provides investigators with a tool to explore, download, and apply statistical models on aggregated data collected for the Fox Insight online clinical study. Also contains recent publications, documentation, and study resources.
 
-## Parkinson's Progression Markers Initiative (PPMI)
-**Authors**: The Michael J. Fox Foundation
+### Parkinson's Progression Markers Initiative (PPMI)
+**Led by**: The Michael J. Fox Foundation
 
 **Brief summary**: A large-scale, longitudinal study to identify biomarkers of Parkinson’s disease. Qualified researchers may obtain access to clinical, imaging, ‘omics, genetic, sensor, and biomarker data.
 
 * [PPMI landing page](https://www.ppmi-info.org/)
 
-## The Parkinson’s Disease Biomarkers Program (PDBP)
-**Authors**: National Institute of Neurological Disorders and Stroke (NINDS)
+### The Parkinson’s Disease Biomarkers Program (PDBP)
+**Led by**: National Institute of Neurological Disorders and Stroke (NINDS)
 
 **Brief summary**: A project led by NIH/NINDS to discover and validate Parkinson’s biomarkers. Provides access to standardized biomarker data and biospecimens.
 
 * [PDBP](https://pdbp.ninds.nih.gov/)
 
-## OpenNeuro
-**Authors**: Stanford Center for Reproducible Neuroscience
+### OpenNeuro
+**Led by**: Stanford Center for Reproducible Neuroscience
 
 **Brief summary**: A free and open platform for validating and sharing BIDS-compliant MRI, PET, MEG, EEG, and iEEG data.
 
