@@ -2,17 +2,23 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.24">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>4&nbsp; Examples – Open Science Guide for Parkinson's Research</title>
 <style>
-code{white-space: pre-wrap;}
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -34,15 +40,14 @@ ul.task-list li input[type="checkbox"] {
 <link href="./tools.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-d58359eb3ecc31d3bec1ed479c2cbb3a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-3d497cff885f6278d37568d0ef0763f8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -81,8 +86,6 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Open Science Guide for Parkinson’s Research</span>
     </a>
@@ -120,10 +123,6 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
-      <a href="./index.html" class="sidebar-logo-link">
-      </a>
-      </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
@@ -172,12 +171,19 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#european-parkinsons-genome-wide-assocition-study-gwas-meta-analysis" id="toc-european-parkinsons-genome-wide-assocition-study-gwas-meta-analysis" class="nav-link active" data-scroll-target="#european-parkinsons-genome-wide-assocition-study-gwas-meta-analysis"><span class="header-section-number">4.1</span> European Parkinson’s Genome-wide Assocition Study (GWAS) Meta-analysis</a></li>
-  <li><a href="#accelerating-medicines-partnershipparkinsons-disease-amp-pd" id="toc-accelerating-medicines-partnershipparkinsons-disease-amp-pd" class="nav-link" data-scroll-target="#accelerating-medicines-partnershipparkinsons-disease-amp-pd"><span class="header-section-number">4.2</span> Accelerating Medicines Partnership–Parkinson’s Disease (AMP-PD)</a></li>
-  <li><a href="#fox-insight" id="toc-fox-insight" class="nav-link" data-scroll-target="#fox-insight"><span class="header-section-number">4.3</span> Fox Insight</a></li>
-  <li><a href="#parkinsons-progression-markers-initiative-ppmi" id="toc-parkinsons-progression-markers-initiative-ppmi" class="nav-link" data-scroll-target="#parkinsons-progression-markers-initiative-ppmi"><span class="header-section-number">4.4</span> Parkinson’s Progression Markers Initiative (PPMI)</a></li>
-  <li><a href="#the-parkinsons-disease-biomarkers-program-pdbp" id="toc-the-parkinsons-disease-biomarkers-program-pdbp" class="nav-link" data-scroll-target="#the-parkinsons-disease-biomarkers-program-pdbp"><span class="header-section-number">4.5</span> The Parkinson’s Disease Biomarkers Program (PDBP)</a></li>
-  <li><a href="#openneuro" id="toc-openneuro" class="nav-link" data-scroll-target="#openneuro"><span class="header-section-number">4.6</span> OpenNeuro</a></li>
+  <li><a href="#organizational-policies" id="toc-organizational-policies" class="nav-link active" data-scroll-target="#organizational-policies"><span class="header-section-number">4.1</span> Organizational Policies</a></li>
+  <li><a href="#individual-projects" id="toc-individual-projects" class="nav-link" data-scroll-target="#individual-projects"><span class="header-section-number">4.2</span> Individual Projects</a>
+  <ul class="collapse">
+  <li><a href="#european-parkinsons-genome-wide-assocition-study-gwas-meta-analysis" id="toc-european-parkinsons-genome-wide-assocition-study-gwas-meta-analysis" class="nav-link" data-scroll-target="#european-parkinsons-genome-wide-assocition-study-gwas-meta-analysis"><span class="header-section-number">4.2.1</span> European Parkinson’s Genome-wide Assocition Study (GWAS) Meta-analysis</a></li>
+  </ul></li>
+  <li><a href="#research-programs-initiatives" id="toc-research-programs-initiatives" class="nav-link" data-scroll-target="#research-programs-initiatives"><span class="header-section-number">4.3</span> Research Programs &amp; Initiatives</a>
+  <ul class="collapse">
+  <li><a href="#accelerating-medicines-partnershipparkinsons-disease-amp-pd" id="toc-accelerating-medicines-partnershipparkinsons-disease-amp-pd" class="nav-link" data-scroll-target="#accelerating-medicines-partnershipparkinsons-disease-amp-pd"><span class="header-section-number">4.3.1</span> Accelerating Medicines Partnership–Parkinson’s Disease (AMP-PD)</a></li>
+  <li><a href="#fox-insight" id="toc-fox-insight" class="nav-link" data-scroll-target="#fox-insight"><span class="header-section-number">4.3.2</span> Fox Insight</a></li>
+  <li><a href="#parkinsons-progression-markers-initiative-ppmi" id="toc-parkinsons-progression-markers-initiative-ppmi" class="nav-link" data-scroll-target="#parkinsons-progression-markers-initiative-ppmi"><span class="header-section-number">4.3.3</span> Parkinson’s Progression Markers Initiative (PPMI)</a></li>
+  <li><a href="#the-parkinsons-disease-biomarkers-program-pdbp" id="toc-the-parkinsons-disease-biomarkers-program-pdbp" class="nav-link" data-scroll-target="#the-parkinsons-disease-biomarkers-program-pdbp"><span class="header-section-number">4.3.4</span> The Parkinson’s Disease Biomarkers Program (PDBP)</a></li>
+  <li><a href="#openneuro" id="toc-openneuro" class="nav-link" data-scroll-target="#openneuro"><span class="header-section-number">4.3.5</span> OpenNeuro</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/MJFF-ResearchCommunity/open-science-guide/edit/main/examples.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/MJFF-ResearchCommunity/open-science-guide/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -203,9 +209,19 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Open science projects are transparent, accessible, and collaborative (see <a href="principles.html" class="quarto-xref"><span>Chapter 1</span></a>). Below lists examples of Parkinson’s disease research projects that practice open science principles.</p>
-<section id="european-parkinsons-genome-wide-assocition-study-gwas-meta-analysis" class="level2" data-number="4.1">
-<h2 data-number="4.1" class="anchored" data-anchor-id="european-parkinsons-genome-wide-assocition-study-gwas-meta-analysis"><span class="header-section-number">4.1</span> European Parkinson’s Genome-wide Assocition Study (GWAS) Meta-analysis</h2>
+<p>Open science projects are transparent, accessible, and collaborative (see <a href="principles.html" class="quarto-xref"><span>Chapter 1</span></a>). Below lists examples within Parkinson’s disease research that practice open science principles.</p>
+<p>This chapter is categorizes examples into three main sections: organizational policies; individual projects; research programs and initiatives.</p>
+<section id="organizational-policies" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="organizational-policies"><span class="header-section-number">4.1</span> Organizational Policies</h2>
+<ul>
+<li><a href="https://doi.org/10.5281/zenodo.18778011">The Michael J Fox Foundation Open Science Policy Handbook</a> - open science policy for all research that is funded by MJFF as of 15 March 2026.</li>
+<li><a href="https://doi.org/10.5281/zenodo.13769765">Aligning Science Across Parkinson’s (ASAP) Open Science Policy Handbook</a> - official ASAP Open Science Policy for grantees in the Collaborative Research Network (CRN)</li>
+</ul>
+</section>
+<section id="individual-projects" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="individual-projects"><span class="header-section-number">4.2</span> Individual Projects</h2>
+<section id="european-parkinsons-genome-wide-assocition-study-gwas-meta-analysis" class="level3" data-number="4.2.1">
+<h3 data-number="4.2.1" class="anchored" data-anchor-id="european-parkinsons-genome-wide-assocition-study-gwas-meta-analysis"><span class="header-section-number">4.2.1</span> European Parkinson’s Genome-wide Assocition Study (GWAS) Meta-analysis</h3>
 <p><strong>Authors</strong>: The Global Parkinson’s Genetics Program (GP2), Hampton L. Leonard</p>
 <p><strong>Brief summary</strong>: largest investigation of Parkinson’s disease genetic risk to date</p>
 <ul>
@@ -215,41 +231,44 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="https://ndkp.hugeamp.org/research.html?pageid=a2f_downloads_280">Data (summary statistics)</a></li>
 </ul>
 </section>
-<section id="accelerating-medicines-partnershipparkinsons-disease-amp-pd" class="level2" data-number="4.2">
-<h2 data-number="4.2" class="anchored" data-anchor-id="accelerating-medicines-partnershipparkinsons-disease-amp-pd"><span class="header-section-number">4.2</span> Accelerating Medicines Partnership–Parkinson’s Disease (AMP-PD)</h2>
-<p><strong>Authors</strong>: Accelerating Medicines Partnership (AMP) Program</p>
+</section>
+<section id="research-programs-initiatives" class="level2" data-number="4.3">
+<h2 data-number="4.3" class="anchored" data-anchor-id="research-programs-initiatives"><span class="header-section-number">4.3</span> Research Programs &amp; Initiatives</h2>
+<section id="accelerating-medicines-partnershipparkinsons-disease-amp-pd" class="level3" data-number="4.3.1">
+<h3 data-number="4.3.1" class="anchored" data-anchor-id="accelerating-medicines-partnershipparkinsons-disease-amp-pd"><span class="header-section-number">4.3.1</span> Accelerating Medicines Partnership–Parkinson’s Disease (AMP-PD)</h3>
+<p><strong>Led by</strong>: Accelerating Medicines Partnership (AMP) Program</p>
 <p><strong>Brief summary</strong>: public-private partnership between the National Institutes of Health (NIH), multiple biopharmaceutical and life sciences companies, and non-profit organizations. Clinical, whole genome, and transcriptomics data available from harmonized datasets.</p>
 <ul>
 <li><a href="https://amp-pd.org/">AMP-PD portal</a></li>
 </ul>
 </section>
-<section id="fox-insight" class="level2" data-number="4.3">
-<h2 data-number="4.3" class="anchored" data-anchor-id="fox-insight"><span class="header-section-number">4.3</span> Fox Insight</h2>
-<p><strong>Authors</strong>: The Michael J. Fox Foundation</p>
+<section id="fox-insight" class="level3" data-number="4.3.2">
+<h3 data-number="4.3.2" class="anchored" data-anchor-id="fox-insight"><span class="header-section-number">4.3.2</span> Fox Insight</h3>
+<p><strong>Led by</strong>: The Michael J. Fox Foundation</p>
 <p><strong>Brief summary</strong>: online clinical study including both cross-sectional and longitudinal surveys. Genetic data (genotyping) and microbiome data (stool &amp; saliva) available from a subsample of participants.</p>
 <ul>
 <li><a href="https://foxden.michaeljfox.org/insight/explore/insight.jsp">Fox DEN</a> - data exploration network for the Fox Insight study that provides investigators with a tool to explore, download, and apply statistical models on aggregated data collected for the Fox Insight online clinical study. Also contains recent publications, documentation, and study resources.</li>
 </ul>
 </section>
-<section id="parkinsons-progression-markers-initiative-ppmi" class="level2" data-number="4.4">
-<h2 data-number="4.4" class="anchored" data-anchor-id="parkinsons-progression-markers-initiative-ppmi"><span class="header-section-number">4.4</span> Parkinson’s Progression Markers Initiative (PPMI)</h2>
-<p><strong>Authors</strong>: The Michael J. Fox Foundation</p>
-<p><strong>Brief summary</strong>: A large-scale, longitudinal study to identify biomarkers of Parkinson’s disease. Qualified researchers may obtain access to clinical, imaging, ’omics, genetic, sensor, and biomarker data.</p>
+<section id="parkinsons-progression-markers-initiative-ppmi" class="level3" data-number="4.3.3">
+<h3 data-number="4.3.3" class="anchored" data-anchor-id="parkinsons-progression-markers-initiative-ppmi"><span class="header-section-number">4.3.3</span> Parkinson’s Progression Markers Initiative (PPMI)</h3>
+<p><strong>Led by</strong>: The Michael J. Fox Foundation</p>
+<p><strong>Brief summary</strong>: A large-scale, longitudinal study to identify biomarkers of Parkinson’s disease. Qualified researchers may obtain access to clinical, imaging, ‘omics, genetic, sensor, and biomarker data.</p>
 <ul>
 <li><a href="https://www.ppmi-info.org/">PPMI landing page</a></li>
 </ul>
 </section>
-<section id="the-parkinsons-disease-biomarkers-program-pdbp" class="level2" data-number="4.5">
-<h2 data-number="4.5" class="anchored" data-anchor-id="the-parkinsons-disease-biomarkers-program-pdbp"><span class="header-section-number">4.5</span> The Parkinson’s Disease Biomarkers Program (PDBP)</h2>
-<p><strong>Authors</strong>: National Institute of Neurological Disorders and Stroke (NINDS)</p>
+<section id="the-parkinsons-disease-biomarkers-program-pdbp" class="level3" data-number="4.3.4">
+<h3 data-number="4.3.4" class="anchored" data-anchor-id="the-parkinsons-disease-biomarkers-program-pdbp"><span class="header-section-number">4.3.4</span> The Parkinson’s Disease Biomarkers Program (PDBP)</h3>
+<p><strong>Led by</strong>: National Institute of Neurological Disorders and Stroke (NINDS)</p>
 <p><strong>Brief summary</strong>: A project led by NIH/NINDS to discover and validate Parkinson’s biomarkers. Provides access to standardized biomarker data and biospecimens.</p>
 <ul>
 <li><a href="https://pdbp.ninds.nih.gov/">PDBP</a></li>
 </ul>
 </section>
-<section id="openneuro" class="level2" data-number="4.6">
-<h2 data-number="4.6" class="anchored" data-anchor-id="openneuro"><span class="header-section-number">4.6</span> OpenNeuro</h2>
-<p><strong>Authors</strong>: Stanford Center for Reproducible Neuroscience</p>
+<section id="openneuro" class="level3" data-number="4.3.5">
+<h3 data-number="4.3.5" class="anchored" data-anchor-id="openneuro"><span class="header-section-number">4.3.5</span> OpenNeuro</h3>
+<p><strong>Led by</strong>: Stanford Center for Reproducible Neuroscience</p>
 <p><strong>Brief summary</strong>: A free and open platform for validating and sharing BIDS-compliant MRI, PET, MEG, EEG, and iEEG data.</p>
 <ul>
 <li><a href="https://openneuro.org/">OpenNeuro.org</a></li>
@@ -269,6 +288,7 @@ Note
 </div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

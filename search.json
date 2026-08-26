@@ -114,7 +114,7 @@
     "href": "considerations.html#making-projects-citeable",
     "title": "2  Considerations",
     "section": "2.5 Making Projects Citeable",
-    "text": "2.5 Making Projects Citeable\nWe recommend establishing or creating a Digital Object Identifier (DOI) to enable researchers and the public to easily cite and access your work. A DOI is a permanent, unique identifier assigned to digital objects such as research papers, datasets, software, and code repositories. It provides a stable and citable link to the content, even if the location (URL) changes.\nFor example, a DOI link will look like this: https://doi.org/10.5281/zenodo.17108875 with 10.5281/zenodo.17108875 representing the DOI. It will always resolve to the same location.\n\n\n\n\n\n\nNote\n\n\n\nNote that 10.5281/zenodo.17108875 is in fact the DOI for this online book! Fun fact, with new pushes to the GitHub repository that hosts this book, Zenodo will automatically keep track of updates, while the DOI will always resolve to the latest version.\n\n\nHere are some recommended places to create a DOI depending on where your Open Science project lives:\n\nFor a GitHub repository → Zenodo (automatic DOI for software releases).\nFor datasets → Figshare, Dryad, or Zenodo.\nFor a general research project → OSF.\n\nWe recommend the following guides for creating DOIs:\n\nCreating DOIs for Open Science Framework (OSF) projects (guide)\nCreating DOIs in Zenodo (guide)\nCreating DOIs for GitHub repositories using Zenodo (guide)\n\n\n2.5.1 A few notes on GitHub → Zenodo integration\nWe recommend including a CITATION.cff file in your GitHub repository to enhance the integration between GitHub and Zenodo, as well as clearly specify citation information. This file will help Zenodo fill in metadata from your repository so that the record is accurate. Otherwise, content may be inaccurate or not intended (e.g., your GitHub username “ebenes” might be used as the author name instead of the intended “Elaine Benes”).\nThe CITATION.cff file for this repository can be viewed here and we recommend reading the following guide for more information.\nCan I create a DOI on Zenodo manually and then connect my GitHub repository to it?\n\nNo. After a DOI is created on Zenodo, you can include a link to your GitHub repository; however, new releases and code updates to your repository will not show on the Zenodo record as separate versions.\n\nMy research project already has a DOI using Zenodo, but I’d like to replace it with my GitHub repository using the GitHub → Zenodo integration. Do I need to create a new DOI?\n\nYes. Having multiple DOIs for the same project may cause confusion, so one method to “link” the DOIs is to use the “Related Works” section within the Zenodo record. This will clarify the relationship between different DOIs from the same project. For example, the Open Science Guide for Parkinson’s Research initially had a DOI created manually using Zenodo (here). This record now “Is obsoleted by” the GitHub repo DOI in the “Related Works” section. There are multiple relationship types to choose from. Pick the one that best represents your particular situation!\n\n\n\n\n\nDennis, Simon, Paul Garrett, Hyungwook Yim, Jihun Hamm, Adam F. Osth, Vishnu Sreekumar, and Ben Stone. 2019. “Privacy Versus Open Science.” Behavior Research Methods 51 (4): 1839–48. https://doi.org/10.3758/s13428-019-01259-5.\n\n\nWilkinson, Mark D., Michel Dumontier, IJsbrand Jan Aalbersberg, Gabrielle Appleton, Myles Axton, Arie Baak, Niklas Blomberg, et al. 2016. “The FAIR Guiding Principles for Scientific Data Management and Stewardship.” Scientific Data 3 (1): 160018. https://doi.org/10.1038/sdata.2016.18.",
+    "text": "2.5 Making Projects Citeable\nWe recommend establishing or creating a Digital Object Identifier (DOI) to enable researchers and the public to easily cite and access your work. A DOI is a permanent, unique identifier assigned to digital objects such as research papers, datasets, software, and code repositories. It provides a stable and citable link to the content, even if the location (URL) changes.\nFor example, a DOI link will look like this: https://doi.org/10.5281/zenodo.17108875 with 10.5281/zenodo.17108875 representing the DOI. It will always resolve to the same location.\n\n\n\n\n\n\nNote\n\n\n\nNote that 10.5281/zenodo.17108875 is in fact the DOI for this online book! Fun fact, with new pushes to the GitHub repository that hosts this book, Zenodo will automatically keep track of updates, while the DOI will always resolve to the latest version.\n\n\nHere are some recommended places to create a DOI depending on where your Open Science project lives:\n\nFor a GitHub repository → Zenodo (automatic DOI for software releases).\nFor datasets → Figshare, Dryad, or Zenodo.\nFor a general research project → OSF.\n\nWe recommend the following guides for creating DOIs:\n\nCreating DOIs for Open Science Framework (OSF) projects (guide)\nCreating DOIs in Zenodo (guide)\nCreating DOIs for GitHub repositories using Zenodo (guide)\n\n\n2.5.1 A few notes on GitHub → Zenodo integration\nWe recommend including a CITATION.cff file in your GitHub repository to enhance the integration between GitHub and Zenodo, as well as clearly specify citation information. This file will help Zenodo fill in metadata from your repository so that the record is accurate. Otherwise, content may be inaccurate or not intended (e.g., your GitHub username “ebenes” might be used as the author name instead of the intended “Elaine Benes”).\nThe CITATION.cff file for this repository can be viewed here and we recommend reading the following guide for more information.\nCan I create a DOI on Zenodo manually and then connect my GitHub repository to it?\n\nNo. After a DOI is created on Zenodo, you can include a link to your GitHub repository; however, new releases and code updates to your repository will not show on the Zenodo record as separate versions.\n\nMy research project already has a DOI using Zenodo, but I’d like to replace it with my GitHub repository using the GitHub → Zenodo integration. Do I need to create a new DOI?\n\nYes. Having multiple DOIs for the same project may cause confusion, so one method to “link” the DOIs is to use the “Related Works” section within the Zenodo record. This will clarify the relationship between different DOIs from the same project. For example, the Open Science Guide for Parkinson’s Research initially had a DOI created manually using Zenodo (here). This record now “Is obsoleted by” the GitHub repo DOI in the “Related Works” section. There are multiple relationship types to choose from. Pick the one that best represents your particular situation!\n\n\n\n\n\nDennis, Simon, Paul Garrett, Hyungwook Yim, et al. 2019. “Privacy Versus Open Science.” Behavior Research Methods 51 (4): 1839–48. https://doi.org/10.3758/s13428-019-01259-5.\n\n\nWilkinson, Mark D., Michel Dumontier, IJsbrand Jan Aalbersberg, et al. 2016. “The FAIR Guiding Principles for Scientific Data Management and Stewardship.” Scientific Data 3 (1): 160018. https://doi.org/10.1038/sdata.2016.18.",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Considerations</span>"
     ]
@@ -224,67 +224,37 @@
     "href": "examples.html",
     "title": "4  Examples",
     "section": "",
-    "text": "4.1 European Parkinson’s Genome-wide Assocition Study (GWAS) Meta-analysis\nOpen science projects are transparent, accessible, and collaborative (see Chapter 1). Below lists examples of Parkinson’s disease research projects that practice open science principles.\nAuthors: The Global Parkinson’s Genetics Program (GP2), Hampton L. Leonard\nBrief summary: largest investigation of Parkinson’s disease genetic risk to date",
+    "text": "4.1 Organizational Policies\nOpen science projects are transparent, accessible, and collaborative (see Chapter 1). Below lists examples within Parkinson’s disease research that practice open science principles.\nThis chapter is categorizes examples into three main sections: organizational policies; individual projects; research programs and initiatives.",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Examples</span>"
     ]
   },
   {
-    "objectID": "examples.html#european-parkinsons-genome-wide-assocition-study-gwas-meta-analysis",
-    "href": "examples.html#european-parkinsons-genome-wide-assocition-study-gwas-meta-analysis",
+    "objectID": "examples.html#organizational-policies",
+    "href": "examples.html#organizational-policies",
     "title": "4  Examples",
     "section": "",
-    "text": "Preprint\nGitHub Repository\nBlog Post\nData (summary statistics)",
+    "text": "The Michael J Fox Foundation Open Science Policy Handbook - open science policy for all research that is funded by MJFF as of 15 March 2026.\nAligning Science Across Parkinson’s (ASAP) Open Science Policy Handbook - official ASAP Open Science Policy for grantees in the Collaborative Research Network (CRN)",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Examples</span>"
     ]
   },
   {
-    "objectID": "examples.html#accelerating-medicines-partnershipparkinsons-disease-amp-pd",
-    "href": "examples.html#accelerating-medicines-partnershipparkinsons-disease-amp-pd",
+    "objectID": "examples.html#individual-projects",
+    "href": "examples.html#individual-projects",
     "title": "4  Examples",
-    "section": "4.2 Accelerating Medicines Partnership–Parkinson’s Disease (AMP-PD)",
-    "text": "4.2 Accelerating Medicines Partnership–Parkinson’s Disease (AMP-PD)\nAuthors: Accelerating Medicines Partnership (AMP) Program\nBrief summary: public-private partnership between the National Institutes of Health (NIH), multiple biopharmaceutical and life sciences companies, and non-profit organizations. Clinical, whole genome, and transcriptomics data available from harmonized datasets.\n\nAMP-PD portal",
+    "section": "4.2 Individual Projects",
+    "text": "4.2 Individual Projects\n\n4.2.1 European Parkinson’s Genome-wide Assocition Study (GWAS) Meta-analysis\nAuthors: The Global Parkinson’s Genetics Program (GP2), Hampton L. Leonard\nBrief summary: largest investigation of Parkinson’s disease genetic risk to date\n\nPreprint\nGitHub Repository\nBlog Post\nData (summary statistics)",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Examples</span>"
     ]
   },
   {
-    "objectID": "examples.html#fox-insight",
-    "href": "examples.html#fox-insight",
+    "objectID": "examples.html#research-programs-initiatives",
+    "href": "examples.html#research-programs-initiatives",
     "title": "4  Examples",
-    "section": "4.3 Fox Insight",
-    "text": "4.3 Fox Insight\nAuthors: The Michael J. Fox Foundation\nBrief summary: online clinical study including both cross-sectional and longitudinal surveys. Genetic data (genotyping) and microbiome data (stool & saliva) available from a subsample of participants.\n\nFox DEN - data exploration network for the Fox Insight study that provides investigators with a tool to explore, download, and apply statistical models on aggregated data collected for the Fox Insight online clinical study. Also contains recent publications, documentation, and study resources.",
-    "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Examples</span>"
-    ]
-  },
-  {
-    "objectID": "examples.html#parkinsons-progression-markers-initiative-ppmi",
-    "href": "examples.html#parkinsons-progression-markers-initiative-ppmi",
-    "title": "4  Examples",
-    "section": "4.4 Parkinson’s Progression Markers Initiative (PPMI)",
-    "text": "4.4 Parkinson’s Progression Markers Initiative (PPMI)\nAuthors: The Michael J. Fox Foundation\nBrief summary: A large-scale, longitudinal study to identify biomarkers of Parkinson’s disease. Qualified researchers may obtain access to clinical, imaging, ’omics, genetic, sensor, and biomarker data.\n\nPPMI landing page",
-    "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Examples</span>"
-    ]
-  },
-  {
-    "objectID": "examples.html#the-parkinsons-disease-biomarkers-program-pdbp",
-    "href": "examples.html#the-parkinsons-disease-biomarkers-program-pdbp",
-    "title": "4  Examples",
-    "section": "4.5 The Parkinson’s Disease Biomarkers Program (PDBP)",
-    "text": "4.5 The Parkinson’s Disease Biomarkers Program (PDBP)\nAuthors: National Institute of Neurological Disorders and Stroke (NINDS)\nBrief summary: A project led by NIH/NINDS to discover and validate Parkinson’s biomarkers. Provides access to standardized biomarker data and biospecimens.\n\nPDBP",
-    "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Examples</span>"
-    ]
-  },
-  {
-    "objectID": "examples.html#openneuro",
-    "href": "examples.html#openneuro",
-    "title": "4  Examples",
-    "section": "4.6 OpenNeuro",
-    "text": "4.6 OpenNeuro\nAuthors: Stanford Center for Reproducible Neuroscience\nBrief summary: A free and open platform for validating and sharing BIDS-compliant MRI, PET, MEG, EEG, and iEEG data.\n\nOpenNeuro.org\n\n\n\n\n\n\n\nNote\n\n\n\nDo you have an example of a Parkinson’s disease research project that practices open science? Submit an issue here and we’ll be sure to add it to this chapter!",
+    "section": "4.3 Research Programs & Initiatives",
+    "text": "4.3 Research Programs & Initiatives\n\n4.3.1 Accelerating Medicines Partnership–Parkinson’s Disease (AMP-PD)\nLed by: Accelerating Medicines Partnership (AMP) Program\nBrief summary: public-private partnership between the National Institutes of Health (NIH), multiple biopharmaceutical and life sciences companies, and non-profit organizations. Clinical, whole genome, and transcriptomics data available from harmonized datasets.\n\nAMP-PD portal\n\n\n\n4.3.2 Fox Insight\nLed by: The Michael J. Fox Foundation\nBrief summary: online clinical study including both cross-sectional and longitudinal surveys. Genetic data (genotyping) and microbiome data (stool & saliva) available from a subsample of participants.\n\nFox DEN - data exploration network for the Fox Insight study that provides investigators with a tool to explore, download, and apply statistical models on aggregated data collected for the Fox Insight online clinical study. Also contains recent publications, documentation, and study resources.\n\n\n\n4.3.3 Parkinson’s Progression Markers Initiative (PPMI)\nLed by: The Michael J. Fox Foundation\nBrief summary: A large-scale, longitudinal study to identify biomarkers of Parkinson’s disease. Qualified researchers may obtain access to clinical, imaging, ‘omics, genetic, sensor, and biomarker data.\n\nPPMI landing page\n\n\n\n4.3.4 The Parkinson’s Disease Biomarkers Program (PDBP)\nLed by: National Institute of Neurological Disorders and Stroke (NINDS)\nBrief summary: A project led by NIH/NINDS to discover and validate Parkinson’s biomarkers. Provides access to standardized biomarker data and biospecimens.\n\nPDBP\n\n\n\n4.3.5 OpenNeuro\nLed by: Stanford Center for Reproducible Neuroscience\nBrief summary: A free and open platform for validating and sharing BIDS-compliant MRI, PET, MEG, EEG, and iEEG data.\n\nOpenNeuro.org\n\n\n\n\n\n\n\nNote\n\n\n\nDo you have an example of a Parkinson’s disease research project that practices open science? Submit an issue here and we’ll be sure to add it to this chapter!",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Examples</span>"
     ]
@@ -294,7 +264,7 @@
     "href": "references.html",
     "title": "References",
     "section": "",
-    "text": "Bowman, Nicholas David, and Justin Robert Keene. 2018. “A\nLayered Framework for Considering Open Science\nPractices.” Communication Research Reports 35\n(4): 363–72. https://doi.org/10.1080/08824096.2018.1513273.\n\n\nDennis, Simon, Paul Garrett, Hyungwook Yim, Jihun Hamm, Adam F. Osth,\nVishnu Sreekumar, and Ben Stone. 2019. “Privacy Versus Open\nScience.” Behavior Research Methods 51 (4): 1839–48. https://doi.org/10.3758/s13428-019-01259-5.\n\n\nKmiecik, Matthew, and Hirotaka Iwaki. 2025. “MJFF Data\nCommunity Webinar: Open Science Guide - An\nOnline Book for Transparent and Reproducible\nData Science Projects in Parkinson’s\nDisease.” Zenodo. https://doi.org/10.5281/zenodo.16813426.\n\n\nVicente-Saez, Ruben, and Clara Martinez-Fuentes. 2018. “Open\nScience Now: A Systematic Literature Review\nfor an Integrated Definition.” Journal of Business\nResearch 88 (July): 428–36. https://doi.org/10.1016/j.jbusres.2017.12.043.\n\n\nWilkinson, Mark D., Michel Dumontier, IJsbrand Jan Aalbersberg,\nGabrielle Appleton, Myles Axton, Arie Baak, Niklas Blomberg, et al.\n2016. “The FAIR Guiding Principles for Scientific\nData Management and Stewardship.” Scientific Data 3 (1):\n160018. https://doi.org/10.1038/sdata.2016.18.",
+    "text": "Bowman, Nicholas David, and Justin Robert Keene. 2018. “A\nLayered Framework for Considering Open Science\nPractices.” Communication Research Reports 35\n(4): 363–72. https://doi.org/10.1080/08824096.2018.1513273.\n\n\nDennis, Simon, Paul Garrett, Hyungwook Yim, et al. 2019. “Privacy\nVersus Open Science.” Behavior Research Methods 51 (4):\n1839–48. https://doi.org/10.3758/s13428-019-01259-5.\n\n\nKmiecik, Matthew, and Hirotaka Iwaki. 2025. MJFF Data\nCommunity Webinar: Open Science Guide - An\nOnline Book for Transparent and Reproducible\nData Science Projects in Parkinson’s\nDisease. Zenodo. https://doi.org/10.5281/zenodo.16813426.\n\n\nVicente-Saez, Ruben, and Clara Martinez-Fuentes. 2018. “Open\nScience Now: A Systematic Literature Review\nfor an Integrated Definition.” Journal of Business\nResearch 88 (July): 428–36. https://doi.org/10.1016/j.jbusres.2017.12.043.\n\n\nWilkinson, Mark D., Michel Dumontier, IJsbrand Jan\nAalbersberg, et al. 2016. “The FAIR Guiding\nPrinciples for Scientific Data Management and\nStewardship.” Scientific Data 3 (1): 160018. https://doi.org/10.1038/sdata.2016.18.",
     "crumbs": [
       "References"
     ]
