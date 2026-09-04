@@ -6,8 +6,8 @@ This chapter is categorizes examples into three main sections: organizational po
 
 ## Organizational Policies
 
-* [The Michael J Fox Foundation Open Science Policy Handbook](https://doi.org/10.5281/zenodo.18778011) -  open science policy for all research that is funded by MJFF as of 15 March 2026.
-* [Aligning Science Across Parkinson's (ASAP) Open Science Policy Handbook](https://doi.org/10.5281/zenodo.13769765) - official ASAP Open Science Policy for grantees in the Collaborative Research Network (CRN)
+* [The Michael J Fox Foundation Open Science Policy Handbook](https://doi.org/10.5281/zenodo.18778011) -  open science policy for all research that is funded by MJFF as of 15 March 2026. Grants made prior to 15 March 2026 are governed by the [MJFF open access policy](https://www.michaeljfox.org/sites/default/files/media/document/MJFF%20Open%20Access%20Publication%20Policy_0_0.pdf). Awardees are encouraged to also follow the open science policy, but not required to do so.
+* [Aligning Science Across Parkinson's (ASAP) Open Science Policy Handbook](https://doi.org/10.5281/zenodo.13769765) - official ASAP Open Science Policy for grantees in the Collaborative Research Network (CRN), Global Parkinson's Genetics Program (GP^2^), and Parkinson's Precision Medicine Initiative (PPMI).
 
 ## Individual Projects
 
