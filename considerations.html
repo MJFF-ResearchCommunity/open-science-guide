@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.10.18">
+<meta name="generator" content="quarto-1.10.19">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -63,10 +63,10 @@ div.csl-indent {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-ed7344add5f1663e434276306a2aa159.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-fd0503e23dce65854c81c5baaade3bdf.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -137,6 +137,9 @@ div.csl-indent {
         </a>
     </div>
   </nav>
+  <div id="quarto-announcement" data-announcement-id="5c877abee93e370722bf011f77a767d7" class="alert alert-warning hidden"><i class="bi bi-exclamation-triangle quarto-announcement-icon"></i><div class="quarto-announcement-content">
+<p><strong>Heads up:</strong> OSF is phasing out Project workflows (all projects become read-only on February 19, 2027). We now recommend <a href="https://zenodo.org/">Zenodo</a> for sharing data and research outputs. <a href="https://help.osf.io/article/727-osf-projects-transition">Learn more</a>.</p>
+</div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
@@ -250,14 +253,24 @@ div.csl-indent {
 <section id="where-to-share-your-data" class="level3" data-number="2.1.1">
 <h3 data-number="2.1.1" class="anchored" data-anchor-id="where-to-share-your-data"><span class="header-section-number">2.1.1</span> Where to share your data</h3>
 <ul>
-<li><a href="https://zenodo.org/">Zenodo</a><br>
-</li>
-<li><a href="https://www.kaggle.com/">Kaggle</a><br>
-</li>
-<li><a href="https://osf.io/">OSF (Open Science Framework)</a><br>
-</li>
+<li><a href="https://zenodo.org/">Zenodo</a> (recommended)</li>
+<li><a href="https://www.kaggle.com/">Kaggle</a></li>
+<li><a href="https://osf.io/">OSF (Open Science Framework)</a> – <em>Project workflows are being phased out (see note below).</em></li>
 <li><a href="https://datadryad.org/">Dryad</a></li>
 </ul>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>OSF is phasing out Project workflows: new projects cannot be created after November 16, 2026, and all projects become read-only on February 19, 2027 (<a href="https://help.osf.io/article/727-osf-projects-transition">details</a>). <strong>We now recommend <a href="https://zenodo.org/">Zenodo</a></strong> for sharing data.</p>
+</div>
+</div>
 <p>If data is publicly available, provide a link to the source. If data cannot be shared, consider providing a <strong>sample dataset</strong> in the repository.</p>
 </section>
 <section id="data-privacy" class="level3" data-number="2.1.2">
@@ -365,10 +378,22 @@ div.csl-indent {
 <ul>
 <li><a href="https://aspredicted.org/">AsPredicted</a> – Simple pre-registration for hypothesis-driven studies.<br>
 </li>
-<li><a href="https://osf.io/">Open Science Framework (OSF)</a> – More detailed project documentation.<br>
-</li>
+<li><a href="https://osf.io/">Open Science Framework (OSF)</a> – More detailed project documentation.</li>
 <li><a href="https://clinicaltrials.gov/">ClinicalTrials.gov</a> – Required for clinical research.</li>
 </ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>OSF preregistrations are <strong>not</strong> affected by OSF’s phase-out of Project workflows and will continue to operate as before (<a href="https://help.osf.io/article/727-osf-projects-transition">details</a>).</p>
+</div>
+</div>
 </section>
 </section>
 <section id="making-projects-citeable" class="level2" data-number="2.5">
@@ -392,12 +417,25 @@ Note
 <ul>
 <li>For a GitHub repository → <a href="https://zenodo.org/">Zenodo</a> (automatic DOI for software releases).</li>
 <li>For datasets → <a href="https://figshare.com/">Figshare</a>, <a href="https://datadryad.org/">Dryad</a>, or <a href="https://zenodo.org/">Zenodo</a>.</li>
-<li>For a general research project → <a href="https://osf.io/">OSF</a>.</li>
+<li>For a general research project → <a href="https://zenodo.org/">Zenodo</a>.</li>
 </ul>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>We previously recommended <a href="https://osf.io/">OSF</a> for general research projects. OSF is phasing out Project workflows: new projects cannot be created after November 16, 2026, and all projects become read-only (including no new DOIs) on February 19, 2027 (<a href="https://help.osf.io/article/727-osf-projects-transition">details</a>). <strong>We now recommend <a href="https://zenodo.org/">Zenodo</a></strong> instead. Existing OSF links and DOIs will continue to resolve.</p>
+</div>
+</div>
 <p>We recommend the following guides for creating DOIs:</p>
 <ul>
-<li>Creating DOIs for Open Science Framework (OSF) projects (<a href="https://help.osf.io/article/220-create-dois">guide</a>)</li>
 <li>Creating DOIs in Zenodo (<a href="https://help.zenodo.org/docs/deposit/describe-records/reserve-doi/">guide</a>)</li>
+<li>Creating DOIs for Open Science Framework (OSF) projects (<a href="https://help.osf.io/article/220-create-dois">guide</a>) – <em>only possible until OSF projects become read-only on February 19, 2027</em></li>
 <li>Creating DOIs for GitHub repositories using Zenodo (<a href="https://coderefinery.github.io/github-without-command-line/doi/">guide</a>)</li>
 </ul>
 <section id="a-few-notes-on-github-zenodo-integration" class="level3" data-number="2.5.1">
