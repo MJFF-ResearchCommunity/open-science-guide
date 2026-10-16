@@ -4,12 +4,16 @@ This chapter aims to provide readers with a comprehensive list of tools (e.g, so
 
 ## Data Management & Sharing
 
-* **[Zenodo](https://zenodo.org/)**: A CERN-backed repository that assigns DOIs to datasets, code, and other research outputs. Supports versioning and integration with GitHub.
+* **[Zenodo](https://zenodo.org/)** (recommended): A CERN-backed repository that assigns DOIs to datasets, code, and other research outputs. Supports versioning and integration with GitHub.
 * **[Figshare](https://figshare.com/)**: Platform for storing, sharing, and discovering research data with built-in metrics and DOI assignment.
-* **[Open Science Framework (OSF)](https://osf.io/)**: All-in-one platform for project management, collaboration, and sharing of research materials with version control.
+* **[Open Science Framework (OSF)](https://osf.io/)**: All-in-one platform for project management, collaboration, and sharing of research materials with version control. *OSF Project workflows are being phased out (see note below).*
 * **[Mendeley Data](https://data.mendeley.com/)**: Free and secure cloud-based communal repository where you can store your data, ensuring it is easy to share, access and cite.
 * **[PhysioNet](https://physionet.org/)**: Repository of freely-available medical research data, managed by the MIT Laboratory for Computational Physiology.
 * **[Synapse](https://www.synapse.org/)**: Collaborative compute space that allows scientists to share and analyze data
+
+::: {.callout-warning}
+OSF is phasing out Project workflows: new projects cannot be created after November 16, 2026, and all projects become read-only on February 19, 2027 ([details](https://help.osf.io/article/727-osf-projects-transition)). **We now recommend [Zenodo](https://zenodo.org/)** for sharing data, code, and other research outputs.
+:::
 
 ## Parkinson's Disease-Specific Data Tools
 

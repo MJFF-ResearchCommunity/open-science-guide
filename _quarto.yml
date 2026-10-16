@@ -29,6 +29,14 @@ book:
     - examples.qmd
     - references.qmd
 
+website:
+  announcement:
+    icon: exclamation-triangle
+    dismissable: true
+    type: warning
+    position: below-navbar
+    content: "**Heads up:** OSF is phasing out Project workflows (all projects become read-only on February 19, 2027). We now recommend [Zenodo](https://zenodo.org/) for sharing data and research outputs. [Learn more](https://help.osf.io/article/727-osf-projects-transition)."
+
 bibliography: references.bib
 
 format:
