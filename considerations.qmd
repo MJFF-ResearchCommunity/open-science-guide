@@ -12,10 +12,14 @@ Careful consideration should be given to participants' privacy when developing p
 
 ### Where to share your data
 
-- [Zenodo](https://zenodo.org/)  
-- [Kaggle](https://www.kaggle.com/)  
-- [OSF (Open Science Framework)](https://osf.io/)  
-- [Dryad](https://datadryad.org/)  
+- [Zenodo](https://zenodo.org/) (recommended)
+- [Kaggle](https://www.kaggle.com/)
+- [OSF (Open Science Framework)](https://osf.io/) – *Project workflows are being phased out (see note below).*
+- [Dryad](https://datadryad.org/)
+
+::: {.callout-warning}
+OSF is phasing out Project workflows: new projects cannot be created after November 16, 2026, and all projects become read-only on February 19, 2027 ([details](https://help.osf.io/article/727-osf-projects-transition)). **We now recommend [Zenodo](https://zenodo.org/)** for sharing data.
+:::
 
 If data is publicly available, provide a link to the source. If data cannot be shared, consider providing a **sample dataset** in the repository.  
 
@@ -104,8 +108,12 @@ Pre-registration strengthens research integrity by documenting hypotheses and me
 ### Where to pre-register
 
 - [AsPredicted](https://aspredicted.org/) – Simple pre-registration for hypothesis-driven studies.  
-- [Open Science Framework (OSF)](https://osf.io/) – More detailed project documentation.  
+- [Open Science Framework (OSF)](https://osf.io/) – More detailed project documentation.
 - [ClinicalTrials.gov](https://clinicaltrials.gov/) – Required for clinical research.
+
+::: {.callout-note}
+OSF preregistrations are **not** affected by OSF's phase-out of Project workflows and will continue to operate as before ([details](https://help.osf.io/article/727-osf-projects-transition)).
+:::
 
 
 ## Making Projects Citeable
@@ -122,12 +130,16 @@ Here are some recommended places to create a DOI depending on where your Open Sc
 
 * For a GitHub repository → [Zenodo](https://zenodo.org/) (automatic DOI for software releases).
 * For datasets → [Figshare](https://figshare.com/), [Dryad](https://datadryad.org/), or [Zenodo](https://zenodo.org/).
-* For a general research project → [OSF](https://osf.io/).
+* For a general research project → [Zenodo](https://zenodo.org/).
+
+::: {.callout-warning}
+We previously recommended [OSF](https://osf.io/) for general research projects. OSF is phasing out Project workflows: new projects cannot be created after November 16, 2026, and all projects become read-only (including no new DOIs) on February 19, 2027 ([details](https://help.osf.io/article/727-osf-projects-transition)). **We now recommend [Zenodo](https://zenodo.org/)** instead. Existing OSF links and DOIs will continue to resolve.
+:::
 
 We recommend the following guides for creating DOIs:
 
-* Creating DOIs for Open Science Framework (OSF) projects ([guide](https://help.osf.io/article/220-create-dois))
 * Creating DOIs in Zenodo ([guide](https://help.zenodo.org/docs/deposit/describe-records/reserve-doi/))
+* Creating DOIs for Open Science Framework (OSF) projects ([guide](https://help.osf.io/article/220-create-dois)) – *only possible until OSF projects become read-only on February 19, 2027*
 * Creating DOIs for GitHub repositories using Zenodo ([guide](https://coderefinery.github.io/github-without-command-line/doi/))
 
 ### A few notes on GitHub → Zenodo integration
