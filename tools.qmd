@@ -15,6 +15,29 @@ This chapter aims to provide readers with a comprehensive list of tools (e.g, so
 OSF is phasing out Project workflows: new projects cannot be created after November 16, 2026, and all projects become read-only on February 19, 2027 ([details](https://help.osf.io/article/727-osf-projects-transition)). **We now recommend [Zenodo](https://zenodo.org/)** for sharing data, code, and other research outputs.
 :::
 
+## Checklists {#sec-checklists}
+
+Checklists help ensure that your data, code, and manuscripts are complete and ready to share before release.
+
+### Data & Code Dissemination
+
+* **[GP^2^ Data and Code Dissemination Checklist](https://docs.google.com/document/d/1qTmkJXWr19mSUbnRRUIUgA2MDokz_8LCYDSrtsrS40I/edit)**: step-by-step checklist from the Global Parkinson's Genetics Program (GP^2^) for preparing and sharing data and code from research projects
+* **[ASAP Open Science Guides](https://doi.org/10.5281/zenodo.12745571)**: suite of guides from Aligning Science Across Parkinson's (ASAP), including an Open Science Compliance Checklist for authors (draft to publication) and guides for writing READMEs, availability statements, and key resource tables
+
+### Data
+
+* **[FAIR-Aware](https://fairaware.dans.knaw.nl/)**: online self-assessment that helps you evaluate how FAIR (Findable, Accessible, Interoperable, Reusable) your dataset is before depositing it in a repository
+
+### Reporting
+
+* **[Enhancing the QUAlity and Transparency Of health Research (EQUATOR)](https://www.equator-network.org/)**: many of these checklists are required for journal submission and can serve as a handy guide when preparing scientific publications (e.g., CONSORT, STROBE, PRISMA, etc.)
+* **[Materials Design Analysis Reporting (MDAR) Checklist](https://osf.io/xfpn4/)**: minimum reporting standards for life sciences research adopted by many journals ([framework paper](https://doi.org/10.31222/osf.io/9sm4x))
+* **[ARRIVE 2.0](https://arriveguidelines.org/)**: reporting guidelines for research involving animals (e.g., preclinical Parkinson's disease models)
+
+::: {.callout-note}
+Know of a helpful open science checklist? Submit an issue [here](https://github.com/MJFF-ResearchCommunity/open-science-guide/issues) and we'll add it to this section!
+:::
+
 ## Parkinson's Disease-Specific Data Tools
 
 * **[Getting Started with Parkinson's Disease Data](https://doi.org/10.5281/zenodo.11167237)**: living document that enables researchers to get started with AMP PD, PPMI, GP2, and Fox Insight data sets (a webinar is available [here](https://zenodo.org/records/15396629))
@@ -28,10 +51,6 @@ OSF is phasing out Project workflows: new projects cannot be created after Novem
 * **[medRxiv](https://www.medrxiv.org/)**: Preprint server for the health sciences
 * **[Research Square](https://www.researchsquare.com/)**: multidisciplinary preprint and author services platform
 * Open access journals
-
-## Reporting Checklists
-
-* **[Enhancing the QUAlity and Transparency Of health Research (EQUATOR)](https://www.equator-network.org/)**: many of these checklists are required for journal submission and can serve as a handy guide when preparing scientific publications (e.g., CONSORT, STROBE, PRISMA, etc.)
 
 ## Open-Source Programming Languages
 
