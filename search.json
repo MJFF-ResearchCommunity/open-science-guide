@@ -74,7 +74,7 @@
     "href": "considerations.html#data-sharing-privacy",
     "title": "2  Considerations",
     "section": "",
-    "text": "2.1.1 Where to share your data\n\nZenodo (recommended)\nKaggle\nOSF (Open Science Framework) – Project workflows are being phased out (see note below).\nDryad\n\n\n\n\n\n\n\nWarning\n\n\n\nOSF is phasing out Project workflows: new projects cannot be created after November 16, 2026, and all projects become read-only on February 19, 2027 (details). We now recommend Zenodo for sharing data.\n\n\nIf data is publicly available, provide a link to the source. If data cannot be shared, consider providing a sample dataset in the repository.\n\n\n2.1.2 Data privacy\nWhile open science promotes transparency, some data must remain private:\n\nPersonally Identifiable Information (PII): Follow legal guidelines (e.g., GDPR, HIPAA).\n\nSensitive datasets: Use controlled-access repositories when needed.\n\nAnonymization: If sharing is restricted, remove identifiable details or aggregate data.",
+    "text": "2.1.1 Where to share your data\n\nZenodo (recommended)\nKaggle\nOSF (Open Science Framework) – Project workflows are being phased out (see note below).\nDryad\n\n\n\n\n\n\n\nWarning\n\n\n\nOSF is phasing out Project workflows: new projects cannot be created after November 16, 2026, and all projects become read-only on February 19, 2027 (details). We now recommend Zenodo for sharing data.\n\n\nIf data is publicly available, provide a link to the source. If data cannot be shared, consider providing a sample dataset in the repository.\nBefore sharing, consider working through a dissemination checklist (see Section 3.2).\n\n\n2.1.2 Data privacy\nWhile open science promotes transparency, some data must remain private:\n\nPersonally Identifiable Information (PII): Follow legal guidelines (e.g., GDPR, HIPAA).\n\nSensitive datasets: Use controlled-access repositories when needed.\n\nAnonymization: If sharing is restricted, remove identifiable details or aggregate data.",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Considerations</span>"
     ]
@@ -140,11 +140,21 @@
     ]
   },
   {
+    "objectID": "tools.html#sec-checklists",
+    "href": "tools.html#sec-checklists",
+    "title": "3  Tools",
+    "section": "3.2 Checklists",
+    "text": "3.2 Checklists\nChecklists help ensure that your data, code, and manuscripts are complete and ready to share before release.\n\n3.2.1 Data & Code Dissemination\n\nGP2 Data and Code Dissemination Checklist: step-by-step checklist from the Global Parkinson’s Genetics Program (GP2) for preparing and sharing data and code from research projects\nASAP Open Science Guides: suite of guides from Aligning Science Across Parkinson’s (ASAP), including an Open Science Compliance Checklist for authors (draft to publication) and guides for writing READMEs, availability statements, and key resource tables\n\n\n\n3.2.2 Data\n\nFAIR-Aware: online self-assessment that helps you evaluate how FAIR (Findable, Accessible, Interoperable, Reusable) your dataset is before depositing it in a repository\n\n\n\n3.2.3 Reporting\n\nEnhancing the QUAlity and Transparency Of health Research (EQUATOR): many of these checklists are required for journal submission and can serve as a handy guide when preparing scientific publications (e.g., CONSORT, STROBE, PRISMA, etc.)\nMaterials Design Analysis Reporting (MDAR) Checklist: minimum reporting standards for life sciences research adopted by many journals (framework paper)\nARRIVE 2.0: reporting guidelines for research involving animals (e.g., preclinical Parkinson’s disease models)\n\n\n\n\n\n\n\nNote\n\n\n\nKnow of a helpful open science checklist? Submit an issue here and we’ll add it to this section!",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Tools</span>"
+    ]
+  },
+  {
     "objectID": "tools.html#parkinsons-disease-specific-data-tools",
     "href": "tools.html#parkinsons-disease-specific-data-tools",
     "title": "3  Tools",
-    "section": "3.2 Parkinson’s Disease-Specific Data Tools",
-    "text": "3.2 Parkinson’s Disease-Specific Data Tools\n\nGetting Started with Parkinson’s Disease Data: living document that enables researchers to get started with AMP PD, PPMI, GP2, and Fox Insight data sets (a webinar is available here)\nUseful PPMI Clinical Codes: facilitates access to clinical data available in the Parkinson’s Progression Markers Initiative (PPMI) study\nParkinson’s Insight Engine (PIE): enables efficient data cleaning, feature engineering, and preparation for machine learning tasks using multi-modal data (clinical, imaging, biologic, genetic) while ensuring ease of use and reproducibility for PPMI and other MJFF data",
+    "section": "3.3 Parkinson’s Disease-Specific Data Tools",
+    "text": "3.3 Parkinson’s Disease-Specific Data Tools\n\nGetting Started with Parkinson’s Disease Data: living document that enables researchers to get started with AMP PD, PPMI, GP2, and Fox Insight data sets (a webinar is available here)\nUseful PPMI Clinical Codes: facilitates access to clinical data available in the Parkinson’s Progression Markers Initiative (PPMI) study\nParkinson’s Insight Engine (PIE): enables efficient data cleaning, feature engineering, and preparation for machine learning tasks using multi-modal data (clinical, imaging, biologic, genetic) while ensuring ease of use and reproducibility for PPMI and other MJFF data",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Tools</span>"
     ]
@@ -153,18 +163,8 @@
     "objectID": "tools.html#open-access-publishing",
     "href": "tools.html#open-access-publishing",
     "title": "3  Tools",
-    "section": "3.3 Open Access Publishing",
-    "text": "3.3 Open Access Publishing\n\narXiv: Preprint server primarily for physics, mathematics, and computer science papers.\nbioRxiv: Preprint server primarily for papers in biology.\nmedRxiv: Preprint server for the health sciences\nResearch Square: multidisciplinary preprint and author services platform\nOpen access journals",
-    "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Tools</span>"
-    ]
-  },
-  {
-    "objectID": "tools.html#reporting-checklists",
-    "href": "tools.html#reporting-checklists",
-    "title": "3  Tools",
-    "section": "3.4 Reporting Checklists",
-    "text": "3.4 Reporting Checklists\n\nEnhancing the QUAlity and Transparency Of health Research (EQUATOR): many of these checklists are required for journal submission and can serve as a handy guide when preparing scientific publications (e.g., CONSORT, STROBE, PRISMA, etc.)",
+    "section": "3.4 Open Access Publishing",
+    "text": "3.4 Open Access Publishing\n\narXiv: Preprint server primarily for physics, mathematics, and computer science papers.\nbioRxiv: Preprint server primarily for papers in biology.\nmedRxiv: Preprint server for the health sciences\nResearch Square: multidisciplinary preprint and author services platform\nOpen access journals",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Tools</span>"
     ]
