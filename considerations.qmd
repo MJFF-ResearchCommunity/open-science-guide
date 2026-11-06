@@ -21,7 +21,9 @@ Careful consideration should be given to participants' privacy when developing p
 OSF is phasing out Project workflows: new projects cannot be created after November 16, 2026, and all projects become read-only on February 19, 2027 ([details](https://help.osf.io/article/727-osf-projects-transition)). **We now recommend [Zenodo](https://zenodo.org/)** for sharing data.
 :::
 
-If data is publicly available, provide a link to the source. If data cannot be shared, consider providing a **sample dataset** in the repository.  
+If data is publicly available, provide a link to the source. If data cannot be shared, consider providing a **sample dataset** in the repository.
+
+Before sharing, consider working through a dissemination checklist (see @sec-checklists).
 
 ### Data privacy
 
